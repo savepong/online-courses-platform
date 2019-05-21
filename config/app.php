@@ -180,7 +180,7 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\ComposerServiceProvider::class,
@@ -239,7 +239,7 @@ return [
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Laratrust'   => Laratrust\LaratrustFacade::class,
         'Image' => Intervention\Image\Facades\Image::class,
-        'Markdown' => GrahamCampbell\Markdown\Facades\Markdown::class,
+        // 'Markdown' => GrahamCampbell\Markdown\Facades\Markdown::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
