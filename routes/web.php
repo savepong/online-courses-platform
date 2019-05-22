@@ -11,6 +11,11 @@
 |
 */
 
+Route::get('/v2', function (){
+    return view('layouts.app');
+});
+
+
 /** Local Streaming */
 Route::get('/player', function () {
     $video = "video/myvideo.mp4";
