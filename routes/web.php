@@ -12,7 +12,7 @@
 */
 
 Route::get('/v2', function (){
-    return view('layouts.app');
+    return view('frontend');
 });
 
 
