@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/v2', function (){
-    $latestCourses = App\Course::orderBy('updated_at', 'DESC')->limit(10)->get();
-    return view('frontend', compact('latestCourses'));
-});
+
 
 
 /** Local Streaming */
@@ -116,7 +113,6 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin/changelog', 'AdminController@changelog')->name('admin.changelog');
 });
 
-
 /** Account */
 Route::any('/', 'CourseController@index')->name('index');
 Route::get('/login', 'AccountController@login')->name('login');
@@ -160,3 +156,9 @@ Route::prefix('connect')->group(function () {
 Route::get('/vod/{video?}', function(){
     return view('video');
 })->name('vod');
+
+
+
+// Route::get('/{any?}', function (){
+//     return view('frontend');
+// })->name('index')->where('any', '.*');

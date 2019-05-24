@@ -3,10 +3,29 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-
 require('./bootstrap');
-
 window.Vue = require('vue');
+
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+
+import CoursesPage from './pages/CoursesPage'
+
+const router = new VueRouter({
+    mode: 'history',
+    routes: [
+        {
+            path: '',
+            name: 'courses.index',
+            component: CoursesPage,
+        },
+    ],
+});
+
+
 
 /**
  * The following block of code may be used to automatically register your

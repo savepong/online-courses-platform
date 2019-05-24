@@ -39,6 +39,7 @@ class CourseController extends Controller
 
         $carousels = Carousel::whereNotNull('image')->orderBy('updated_at', 'DESC')->get();
 
+        // return view('frontend', compact('courses', 'carousels'));
         return view('course.index', compact('courses', 'carousels'));
     }
 
