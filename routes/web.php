@@ -12,7 +12,8 @@
 */
 
 Route::get('/v2', function (){
-    return view('frontend');
+    $latestCourses = App\Course::orderBy('updated_at', 'DESC')->limit(10)->get();
+    return view('frontend', compact('latestCourses'));
 });
 
 

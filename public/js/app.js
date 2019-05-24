@@ -1809,9 +1809,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['latestCourses'],
   data: function data() {
-    return {
-      latestCourses: [1, 2, 3, 4, 5, 6]
+    return {// latestCourses: [1, 2, 3, 4, 5, 6]
     };
   }
 });
@@ -19466,7 +19466,7 @@ var render = function() {
             },
             _vm._l(_vm.latestCourses, function(course, index) {
               return _c("li", { key: index, staticClass: "uk-active" }, [
-                _c("a", { attrs: { href: "course-view.html" } }, [
+                _c("a", { attrs: { href: "#" } }, [
                   _c(
                     "div",
                     {
@@ -19476,13 +19476,14 @@ var render = function() {
                     [
                       _c("img", {
                         staticClass: "course-img",
-                        attrs: {
-                          src:
-                            "themes/courseplus/assets/images/Courses/course-10.jpg"
-                        }
+                        attrs: { src: course.image_url }
                       }),
                       _vm._v(" "),
-                      _vm._m(1, true)
+                      _c("div", { staticClass: "uk-card-body" }, [
+                        _c("h4", [_vm._v(_vm._s(course.title))]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v(_vm._s(course.description))])
+                      ])
                     ]
                   )
                 ])
@@ -19511,7 +19512,7 @@ var render = function() {
             }
           }),
           _vm._v(" "),
-          _vm._m(2)
+          _vm._m(1)
         ]
       )
     ])
@@ -19533,13 +19534,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "uk-float-left" }, [
             _c("h1", { staticClass: "uk-text-white" }, [
               _vm._v("Latest Courses")
-            ]),
-            _vm._v(" "),
-            _c(
-              "h4",
-              { staticClass: "uk-text-white uk-margin-remove uk-text-light" },
-              [_vm._v(" New Courses ")]
-            )
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "uk-float-right" }, [
@@ -19554,20 +19549,6 @@ var staticRenderFns = [
           ])
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "uk-card-body" }, [
-      _c("h4", [_vm._v("Bootstrap Introduction ")]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          " Lorem ipsum dolor sit amet tempor  consectetur adipiscing elit, sed do eiusmod tempor ... "
-        )
-      ])
     ])
   },
   function() {
