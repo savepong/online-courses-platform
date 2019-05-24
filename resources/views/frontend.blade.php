@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.courseplus.horizontal')
 
 @section('content')
     <index-page></index-page>
