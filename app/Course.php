@@ -16,6 +16,7 @@ class Course extends Model
     use SoftDeletes;
     protected $fillable = ['title', 'slug', 'excerpt', 'description', 'published_at','author_id', 'category_id', 'image', 'video', 'price', 'sale_price', 'deleted_at'];
     protected $dates = ['published_at'];
+    protected $appends = ['image_url'];
 
     public function author()
     {

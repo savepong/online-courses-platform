@@ -1,0 +1,560 @@
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="shortcut icon" href="../assets/images/favicon.png"> 
+        <meta name="description" content=""> 
+        <title> CoursePlus Theme </title>         
+        <!-- Favicon -->         
+        <link href="../assets/img/brand/favicon.png" rel="icon" type="image/png"> 
+        <!-- Your stylesheet-->         
+        <link rel="stylesheet" href="../assets/css/uikit.css"> 
+        <link rel="stylesheet" href="../assets/css/main.css"> 
+        <!-- font awesome -->         
+        <link rel="stylesheet" href="../assets/css/fontawesome.css"> 
+        <!--  javascript -->         
+        <script src="../assets/js/simplebar.js"></script>         
+        <script src="../assets/js/uikit.js"></script>         
+        <style>.demo-box {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+
+.demo-box:hover {
+    margin-top: -2px;
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+    transition: 0.4s ease all ;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+.demo-icon-home {
+    position: fixed;
+    left: 2%;
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    z-index: 10000;
+    width: 10px !important;
+}
+
+.demo-icon-home-active {
+    color: black !important;
+    top: 13px !important;
+}</style>         
+    </head>     
+    <body> 
+        <!-- PreLoader -->         
+        <div id="spinneroverlay"> 
+            <div class="spinner"></div>             
+        </div>         
+        <div> 
+            <div class="uk-text-center uk-padding uk-background-grey"> 
+                <a href="#" class="demo-icon-home" cls-active="demo-icon-home-active" uk-sticky><i class="fas fa-bars"></i></a> 
+                <div uk-drop="pos: top ;mode:click ;animation: uk-animation-slide-bottom-small" class="uk-drop tm-dropdown-medium angle-top-left "> 
+                    <div class="uk-card-small uk-box-shadow-xlarge uk-card-default uk-maring-small-left  border-radius-6"> 
+                        <div class="uk-card uk-card-default uk-background-muted uk-padding-small"> 
+                            <div class="uk-child-width-1-2 uk-grid-small" uk-grid> 
+                                <div> 
+                                    <a href="../admin/index.html" class="uk-link-reset"> 
+                                        <img src="../assets/images/demos/preview-admin.jpg" class="uk-box-shadow-medium scale-up" alt=""> 
+                                        <p class="uk-margin-small-top uk-margin-remove-bottom"> Admin section </p> 
+                                    </a>                                     
+                                </div>                                 
+                                <div> 
+                                    <a href="../main/index.html" class="uk-link-reset"> 
+                                        <img src="../assets/images/demos/preview-main.jpg" class="uk-box-shadow-medium scale-up" alt=""> 
+                                        <p class="uk-margin-small-top uk-margin-remove-bottom"> Default layout  </p> 
+                                    </a>                                     
+                                </div>                                 
+                                <div> 
+                                    <a href="../horizontal/index.html" class="uk-link-reset"> 
+                                        <img src="../assets/images/demos/preview-horizontal.jpg" class="uk-box-shadow-medium scale-up" alt=""> 
+                                        <p class="uk-margin-small-top uk-margin-remove-bottom"> Horizantal layout </p> 
+                                    </a>                                     
+                                </div>                                 
+                                <div> 
+                                    <a href="../landing/index.html" class="uk-link-reset"> 
+                                        <img src="../assets/images/demos/preview-landing.jpg" class="uk-box-shadow-medium scale-up" alt=""> 
+                                        <p class="uk-margin-small-top uk-margin-remove-bottom"> Landing pages   </p> 
+                                    </a>                                     
+                                </div>                                  
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+                <h1 class="uk-text-white" uk-scrollspy="cls:uk-animation-fade">  Default Layout Demos </h1> 
+            </div>             
+            <ul class="uk-flex-center uk-tab uk-margin-medium-bottom uk-margin-remove-top uk-background-default" uk-switcher="animation: uk-animation-fade, uk-animation-fade" uk-sticky uk-tab> 
+                <li class="uk-active"> 
+                    <a href="#">Course</a> 
+                </li>                 
+                <li> 
+                    <a href="#">Script</a> 
+                </li>                 
+                <li> 
+                    <a href="#">Blog</a> 
+                </li>                 
+                <li> 
+                    <a href="#">Book</a>
+                </li>                 
+                <li> 
+                    <a href="#">Discussion</a> 
+                </li>                 
+                <li> 
+                    <a href="#">Help</a> 
+                </li>                 
+                <li> 
+                    <a href="#">Account</a> 
+                </li>                 
+                <li> 
+                    <a href="#">SitePages</a> 
+                </li>                 
+                <li> 
+                    <a href="#">Development</a> 
+                </li>                 
+            </ul>             
+            <ul class="uk-switcher uk-margin uk-padding"> 
+                <li class="uk-active"> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a class="uk-link-reset" href="Browse_all_webdevelopment.html" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/course-browse-course.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Browse Courses 
+</div>
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Browse-courses-single-page.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/course-browse-course-single-page.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Browse Courses single page 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-all-tags.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Course-all-tags.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course tags 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-intro-one.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Course-intro-one.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course Intro one 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-intro-two.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Course-intro-two.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course Intro two 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-intro-three.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Course-intro-two.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course Intro three 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-list.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Course-list.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course list 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-dhashboard.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/course-dhashboard.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course Dhashboard 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-lesson.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Course-lesson.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course lesson one 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-lesson-2.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Course-lesson-2.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course lesson two 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-lesson-3.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/course-lesson-3.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course lesson three
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Course-lesson-3-accordion.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/course-lesson-3.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Course lesson three + accordion
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>                 
+                <li> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Scripts.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Scripts.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Scripts 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Scripts-card.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Scripts-card.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Scripts card 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Scripts_single_page.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Scripts-single.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Scripts single page 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Scripts-description.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Scripts-description.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Script Description 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>                 
+                <li> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Blog.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/blog.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Blog  
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="blog-video-one.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/blog-video-1.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Blog Video 1 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="blog-video-two.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/blog-video-2.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Blog Video 2 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Blog-post-video.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/blog-post-video.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Blog post Video  
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Blog-post-single.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/blog-post-single.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Blog post single 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>                 
+                <li> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="books.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Books.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Books  
+</div>
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Book-description.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Book-Description.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Books description 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>
+                <li> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Discussion.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Discussions.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Discussion  
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Discussion-posts.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/Discussions-read.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Discussion Post 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>
+                <li> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="pages-help.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/pages-help.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Help  
+</div>
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="pages-help-post.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/pages-help-post.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Help post 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="pages-help-post-read.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/pages-help-post-read.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Help post read
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>                 
+                <li> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="Profile.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/profile.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Profile  
+</div>
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="authentication.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/authentication.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        authentication 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="authentication-2.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/authentication-2.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        authentication 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>                 
+                <li> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="pages-about.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/pages-about.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        About page
+</div>
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="pages-faq.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/pages-faq.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Faq page 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="pages-terms.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/pages-terms.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Term page
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="404.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/pages-terms.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        404
+</div>
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>
+                <li> 
+                    <div class="uk-child-width-1-3@m uk-container uk-margin-auto uk-margin-medium-bottom uk-grid-large" uk-grid> 
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="ui-components.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/ui-compounents.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Ui-compounents  
+</div>
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="ui-elements.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/ui-elements.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Ui-elements 
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                        <div> 
+                            <div class="demo-box"> 
+                                <a href="ui-helpers.html" class="uk-link-reset" target="_blank"> 
+                                    <img alt="" src="../assets/images/demos/main/ui-helpers.jpg"> 
+                                    <div class="uk-padding-small uk-text-center"> 
+                                        Ui-helpers
+</div>                                     
+                                </a>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </li>                 
+            </ul>             
+        </div>         
+        <script>
+                // Preloader
+                var spinneroverlay = document.getElementById("spinneroverlay");
+               window.addEventListener('load', function(){
+                   spinneroverlay.style.display = 'none';
+               });
+       
+               //scrollTop
+               // When the user scrolls down 20px from the top of the document, show the button
+               window.onscroll = function() {scrollFunction()};        
+               function scrollFunction() {
+                   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                       document.getElementById("scrollTop").style.display = "block";
+                   } else {
+                       document.getElementById("scrollTop").style.display = "none";
+                   }
+               }        
+               // When the user clicks on the button, scroll to the top of the document
+               function topFunction() {
+                   document.body.scrollTop = 0;
+                   document.documentElement.scrollTop = 0;
+               }
+        </script>         
+    </body>
