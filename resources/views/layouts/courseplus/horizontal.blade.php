@@ -1,27 +1,32 @@
 <html lang="en"> 
     <head> 
+        <title> {{config('app.name')}} </title>         
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="{{asset('themes/courseplus')}}/assets/images/favicon.png">
         <meta name="description" content="">
         
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
-        <title> {{config('app.name')}} </title>         
+        
         <!-- Favicon -->
+        <link rel="shortcut icon" href="{{asset('themes/courseplus')}}/assets/images/favicon.png">
         <link href="{{asset('themes/courseplus')}}/assets/img/brand/favicon.png" rel="icon" type="image/png">
+
         <!-- Your stylesheet-->
         <link rel="stylesheet" href="{{asset('themes/courseplus')}}/assets/css/uikit.css"> 
         <link rel="stylesheet" href="{{asset('themes/courseplus')}}/assets/css/main.css"> 
+
         <!-- font awesome -->         
         <link rel="stylesheet" href="{{asset('themes/courseplus')}}/assets/css/fontawesome.css">
+
         <!--  javascript -->
         <script src="{{asset('themes/courseplus')}}/assets/js/simplebar.js"></script>         
         <script src="{{asset('themes/courseplus')}}/assets/js/uikit.js"></script>   
         
     </head>     
     <body> 
+        <div id="defaultOpen"></div>
+        
         <!-- PreLoader -->         
         <div id="spinneroverlay"> 
             <div class="spinner"></div>             

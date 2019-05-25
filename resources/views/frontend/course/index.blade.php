@@ -1,5 +1,5 @@
 @extends('layouts.courseplus.horizontal')
 
 @section('content')
-    <courses-page :model="{{ $model }}"></courses-page>
+    <courses-page :courses="{{ $courses }}"></courses-page>
 @endsection

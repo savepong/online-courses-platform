@@ -159,6 +159,7 @@ Route::get('/vod/{video?}', function(){
 
 
 
-// Route::get('/{any?}', function (){
-//     return view('frontend');
+// Route::get('/v2/{any?}', function (){
+//     $model['courses'] = App\Course::all();
+//     return view('frontend', compact('model'));
 // })->name('index')->where('any', '.*');
