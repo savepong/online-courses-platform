@@ -42,9 +42,9 @@
                         <!-- mobile icon for user icon on nav-mobile -->                         
                         <span class="uk-hidden@m tm-mobile-user-icon uk-align-right" uk-toggle="target: #tm-show-on-mobile; cls: tm-show-on-mobile-active"><i class="fas fa-user icon-large"></i></span> 
                         <!-- mobile logo -->                         
-                        <a class="uk-hidden@m uk-logo" href="Homepage.html"> {{config('app.name')}}</a> 
+                        <a class="uk-hidden@m uk-logo" href="{{route('index')}}"> {{config('app.name')}}</a> 
                         <div class="uk-navbar-left uk-visible@m">
-                            <a href="Homepage.html" class="uk-logo"> <i class="fas fa-graduation-cap"> </i> {{config('app.name')}}</a>
+                            <a href="{{route('index')}}" class="uk-logo"> <i class="fas fa-graduation-cap"> </i> {{config('app.name')}}</a>
                             <ul class="uk-navbar-nav uk-margin-small-left">
                                 <li class="uk-active">
                                     <a href="{{route('course.index')}}"> Courses </a>
@@ -1058,7 +1058,7 @@
                     </div>                     
                 </div>                 
                 <hr>
-                <p class="uk-postion-absoult uk-margin-remove uk-position-bottom-right" style="bottom: 8px;right: 60px;" uk-tooltip="title: Visit Our Site; pos: top-center"> Powered By <a href="#" target="_blank" class="uk-text-bold uk-link-reset"> {{config('app.name')}}</a></p> 
+                <p class="uk-postion-absoult uk-margin-remove uk-position-bottom-right" style="bottom: 8px;right: 60px;" uk-tooltip="title: Visit Our Site; pos: top-center"> Powered By <a href="https://ideagital.com" target="_blank" class="uk-text-bold uk-link-reset">IDEAGITAL TECH</a></p> 
                 <div class="uk-margin-small" uk-grid> 
                     <div class="uk-width-1-2@m uk-width-1-2@s uk-first-column"> 
                         <p class="uk-text-small"><i class="fas fa-copyright"></i> 2019 <span class="uk-text-bold">{{config('app.name')}}</span> . All rights reserved.</p> 

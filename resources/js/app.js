@@ -12,7 +12,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 
-import CoursesPage from './pages/CoursesPage'
+import IndexPage from './pages/IndexPage'
 
 const router = new VueRouter({
     mode: 'history',
@@ -20,7 +20,7 @@ const router = new VueRouter({
         {
             path: '',
             name: 'courses.index',
-            component: CoursesPage,
+            component: IndexPage,
         },
     ],
 });
@@ -38,7 +38,7 @@ const router = new VueRouter({
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('courses-page', require('./pages/CoursesPage.vue').default);
+Vue.component('index-page', require('./pages/IndexPage.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

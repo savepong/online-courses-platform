@@ -41,19 +41,26 @@
         <!-- end feature contant-->
         
         <!--  Page Contants  -->   
-        <categories></categories>
-        <!-- <courses-component></courses-component> -->
+        <div class="uk-container uk-margin-medium-top" id="more">
+            <categories :categories="categories"></categories>
+            <articles :articles="articles"></articles>
+            <course-filter :courses="courses"></course-filter>
+        </div>
     </div>
 </template>
 
 <script>
 import Categories from '../components/CategoriesComponent'
+import CourseFilter from '../components/CourseFilterComponent'
+import Articles from '../components/ArticlesComponent'
 
 export default {
-    props: ['courses'],
+    props: ['courses', 'articles', 'categories'],
 
     components: {
-        Categories
+        Categories,
+        courseFilter: CourseFilter,
+        Articles
     },
 
     data() {

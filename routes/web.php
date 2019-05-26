@@ -114,7 +114,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 /** Account */
-Route::any('/', 'CourseController@index')->name('index');
+Route::any('/courses', 'CourseController@index')->name('index');
 Route::get('/login', 'AccountController@login')->name('login');
 Route::get('/register', 'AccountController@register')->name('register');
 Route::get('/profile/{user}', 'UserController@profile')->name('user.profile');
@@ -159,7 +159,10 @@ Route::get('/vod/{video?}', function(){
 
 
 
-// Route::get('/v2/{any?}', function (){
-//     $model['courses'] = App\Course::all();
-//     return view('frontend', compact('model'));
-// })->name('index')->where('any', '.*');
+Route::get('/', function (){
+    $courses= App\Course::with('category')->get();
+    $posts = App\Post::all();
+    $categories = App\Category::all();
+
+    return view('frontend.index', compact('courses', 'posts', 'categories'));
+})->name('index')->where('any', '.*');
