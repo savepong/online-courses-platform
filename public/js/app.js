@@ -20761,7 +20761,7 @@ var render = function() {
           "div",
           {
             staticClass:
-              "uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match uk-margin",
+              "uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin",
             attrs: {
               "uk-scrollspy":
                 "cls: uk-animation-slide-bottom-small; target: > div ; delay: 200",
@@ -20797,9 +20797,9 @@ var render = function() {
                       _c("div", { staticClass: "uk-card-body" }, [
                         _c("h4", [_vm._v(" " + _vm._s(course.title))]),
                         _vm._v(" "),
-                        _c("p", [
-                          _vm._v(" " + _vm._s(course.description) + " ")
-                        ]),
+                        _c("div", {
+                          domProps: { innerHTML: _vm._s(course.excerpt) }
+                        }),
                         _vm._v(" "),
                         _c("hr", { staticClass: "uk-margin-remove-top" }),
                         _vm._v(" "),
@@ -21687,7 +21687,7 @@ var render = function() {
             "ul",
             {
               staticClass:
-                "uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@m uk-grid"
+                "uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid"
             },
             _vm._l(_vm.courses, function(course, index) {
               return _c("li", { key: index, staticClass: "uk-active" }, [
@@ -21705,9 +21705,7 @@ var render = function() {
                       }),
                       _vm._v(" "),
                       _c("div", { staticClass: "uk-card-body" }, [
-                        _c("h4", [_vm._v(_vm._s(course.title))]),
-                        _vm._v(" "),
-                        _c("p", [_vm._v(_vm._s(course.description))])
+                        _c("h4", [_vm._v(_vm._s(course.title))])
                       ])
                     ]
                   )

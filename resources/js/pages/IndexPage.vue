@@ -15,14 +15,14 @@
                 </div>
             </div>
             <div class="uk-position-relative uk-visible-toggle  uk-container uk-padding-medium" uk-slider>
-                <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@m uk-grid"> 
+                <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid"> 
                     <li v-for="(course, index) in courses" :key="index" class="uk-active">
                         <a href="#">
                             <div class="uk-card-default uk-card-hover  uk-card-small feature-card uk-inline-clip">
                                 <img class="course-img" :src="course.image_url"> 
                                 <div class="uk-card-body"> 
                                     <h4>{{ course.title }}</h4>
-                                    <p>{{ course.description }}</p> 
+                                    <!-- <p>{{ course.description }}</p>  -->
                                 </div>                                     
                             </div>                                 
                         </a>                             

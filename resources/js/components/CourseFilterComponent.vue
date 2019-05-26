@@ -301,7 +301,7 @@
             </div>                     
         </div>
         <div uk-grid>
-            <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match uk-margin" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: > div ; delay: 200" uk-grid> 
+            <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: > div ; delay: 200" uk-grid> 
                                    
                 <div v-for="course in courses" :key="course.id"> 
                     <div class="uk-card-default uk-card-hover  uk-card-small Course-card  scale-up-medium uk-inline-clip uk-transition-toggle" tabindex="0"> 
@@ -315,7 +315,7 @@
                             <img :src="course.image_url" class="course-img"> 
                             <div class="uk-card-body"> 
                                 <h4> {{course.title}}</h4> 
-                                <p> {{course.description}} </p> 
+                                <div v-html="course.excerpt"></div> 
                                 <hr class="uk-margin-remove-top"> 
                                 <a class="Course-tags uk-margin-small-right tags-active" href="course-tags.html"> Web Development </a> 
                                 <a class="Course-tags" href="course-tags.html"> Beginner </a> 
