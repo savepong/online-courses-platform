@@ -44,10 +44,10 @@
                         <!-- mobile logo -->                         
                         <a class="uk-hidden@m uk-logo" href="Homepage.html"> {{config('app.name')}}</a> 
                         <div class="uk-navbar-left uk-visible@m">
-                            <a href="Homepage.html" class="uk-logo"> <i class="fas fa-graduation-cap"> </i> CoursePlace</a>
+                            <a href="Homepage.html" class="uk-logo"> <i class="fas fa-graduation-cap"> </i> {{config('app.name')}}</a>
                             <ul class="uk-navbar-nav uk-margin-small-left">
                                 <li class="uk-active">
-                                    <a href="#"> Courses </a>
+                                    <a href="{{route('course.index')}}"> Courses </a>
                                     <!-- drop topic list -->
                                     <div uk-drop="pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small" class="uk-drop angle-top-left"> 
                                         <div class="tm-drop-topic">
@@ -219,19 +219,7 @@
                                             </div>                                             
                                         </div>                                         
                                     </div>
-                                </li>                                 
-                                <li>
-                                    <a href="#">Books </a> 
-                                </li>
-                                <li>
-                                    <a href="#">Scripts</a>
-                                </li>
-                                <li>
-                                    <a href="#">Blogs</a>
-                                </li>                                 
-                                <li>
-                                    <a href="#">Discussions</a>
-                                </li>                                 
+                                </li>                                    
                             </ul>
                         </div>                         
                         <div class="uk-navbar-right tm-show-on-mobile uk-flex-right" id="tm-show-on-mobile"> 
@@ -1017,7 +1005,7 @@
             <div class="uk-container uk-align-center uk-margin-remove-bottom uk-position-relative"> 
                 <div uk-grid> 
                     <div class="uk-width-1-3@m uk-width-1-2@s uk-first-column"> 
-                        <a href="pages-about.html" class="uk-link-heading uk-text-lead uk-text-bold"> <i class="fas fa-graduation-cap"></i>  CoursePlus</a> 
+                        <a href="pages-about.html" class="uk-link-heading uk-text-lead uk-text-bold"> <i class="fas fa-graduation-cap"></i>  {{config('app.name')}}</a> 
                         <div class="uk-width-xlarge tm-footer-description">A unique and beautiful collection of UI elements that are all flexible and modular.   building the website of your dreams.</div>                         
                     </div>                     
                     <div class="uk-width-expand@m uk-width-1-2@s"> 
@@ -1070,10 +1058,10 @@
                     </div>                     
                 </div>                 
                 <hr>
-                <p class="uk-postion-absoult uk-margin-remove uk-position-bottom-right" style="bottom: 8px;right: 60px;" uk-tooltip="title: Visit Our Site; pos: top-center"> Powered By <a href="#" target="_blank" class="uk-text-bold uk-link-reset"> CoursePlus</a></p> 
+                <p class="uk-postion-absoult uk-margin-remove uk-position-bottom-right" style="bottom: 8px;right: 60px;" uk-tooltip="title: Visit Our Site; pos: top-center"> Powered By <a href="#" target="_blank" class="uk-text-bold uk-link-reset"> {{config('app.name')}}</a></p> 
                 <div class="uk-margin-small" uk-grid> 
                     <div class="uk-width-1-2@m uk-width-1-2@s uk-first-column"> 
-                        <p class="uk-text-small"><i class="fas fa-copyright"></i> 2019 <span class="uk-text-bold">CoursePlus</span> . All rights reserved.</p> 
+                        <p class="uk-text-small"><i class="fas fa-copyright"></i> 2019 <span class="uk-text-bold">{{config('app.name')}}</span> . All rights reserved.</p> 
                     </div>                     
                     <div class="uk-width-1-3@m uk-width-1-2@s"> 
                         <a href="#" class="uk-icon-button uk-link-reset" uk-tooltip="title: Our Youtube Chanal; pos: top-center"><i class="fab fa-youtube" style=" color: #fb7575  !important;"></i></a>

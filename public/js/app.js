@@ -1777,7 +1777,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      categories: [1, 2, 3, 4, 5, 6, 7]
+      categories: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     };
   }
 });
@@ -20142,7 +20142,9 @@ var render = function() {
         _vm._l(_vm.categories, function(category, index) {
           return _c("div", { key: index }, [
             _c("div", { staticClass: "uk-card-default uk-padding-small" }, [
-              _vm._v("\n                Web Developement \n            ")
+              _vm._v(
+                "\n                " + _vm._s(category) + " Web \n            "
+              )
             ])
           ])
         }),
