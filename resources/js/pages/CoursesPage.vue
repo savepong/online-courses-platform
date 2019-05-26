@@ -7,7 +7,7 @@
                 <div class="uk-position-relative uk-margin-medium-top none-border uk-clearfix"> 
                     <div class="uk-float-left"> 
                         <h1 class="uk-text-white">Latest Courses</h1>
-                        <!-- <h4 class="uk-text-white uk-margin-remove uk-text-light"> New Courses </h4> -->
+                        <h4 class="uk-text-white uk-margin-remove uk-text-light"> New Courses </h4>
                     </div>                         
                     <div class="uk-float-right"> 
                         <a href="#more" class="uk-button uk-button-default uk-button-white" uk-scroll>See more</a> 
@@ -40,14 +40,21 @@
         </div>             
         <!-- end feature contant-->
         
-        <!--  Page Contants  -->             
+        <!--  Page Contants  -->   
+        <categories></categories>
         <!-- <courses-component></courses-component> -->
     </div>
 </template>
 
 <script>
+import Categories from '../components/CategoriesComponent'
+
 export default {
     props: ['courses'],
+
+    components: {
+        Categories
+    },
 
     data() {
         return {
