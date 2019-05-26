@@ -57,3 +57,13 @@ export default {
 }
 </script>
 
+<style scoped>
+.hero-feature-bg {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    background: linear-gradient(220deg, #f69120 -10%, #ed2e24 70%);
+}
+</style>
+
+
