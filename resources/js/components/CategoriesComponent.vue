@@ -2,7 +2,7 @@
     <div> 
         <h3 class="uk-text-light"> Popular Categories </h3>
         <div class="uk-grid-small uk-child-width-1-6 uk-margin-large-bottom uk-visible@s" uk-grid>
-            <div v-for="(category, index) in categories" :key="index">
+            <div v-for="category in categories" :key="category.id">
                 <div class="uk-card-default uk-padding-small">
                     {{category.title}} 
                 </div>                         

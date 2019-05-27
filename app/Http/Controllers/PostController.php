@@ -31,8 +31,6 @@ class PostController extends Controller
                         ->filter(request()->only(['q']))
                         ->paginate($this->limit);
 
-        
-
         return view('post.index', compact('posts'));
     }
 

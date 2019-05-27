@@ -13,6 +13,10 @@ Vue.use(VueRouter)
 
 
 import IndexPage from './pages/IndexPage'
+// import ArticlesPage from './pages/ArticlesPage'
+
+
+Vue.component('articles-page', require('./pages/ArticlesPage.vue').default);
 
 const router = new VueRouter({
     mode: 'history',
