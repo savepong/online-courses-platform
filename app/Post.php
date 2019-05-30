@@ -12,6 +12,7 @@ class Post extends Model
 {
     protected $fillable = ['title', 'slug', 'excerpt', 'body', 'image', 'category_id', 'author_id', 'published_at'];
     protected $dates = ['published_at'];
+    protected $appends = ['image_url'];
     use SoftDeletes;
 
 

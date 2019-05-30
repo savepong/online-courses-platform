@@ -20843,28 +20843,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("div", {
                           domProps: { innerHTML: _vm._s(course.excerpt) }
-                        }),
-                        _vm._v(" "),
-                        _c("hr", { staticClass: "uk-margin-remove-top" }),
-                        _vm._v(" "),
-                        _c(
-                          "a",
-                          {
-                            staticClass:
-                              "Course-tags uk-margin-small-right tags-active",
-                            attrs: { href: "course-tags.html" }
-                          },
-                          [_vm._v(" Web Development ")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "a",
-                          {
-                            staticClass: "Course-tags",
-                            attrs: { href: "course-tags.html" }
-                          },
-                          [_vm._v(" Beginner ")]
-                        )
+                        })
                       ])
                     ]
                   )
