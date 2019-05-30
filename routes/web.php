@@ -115,7 +115,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 /** Account */
-Route::any('/courses', 'CourseController@index')->name('index');
+Route::any('/courses', 'CourseController@index')->name('course.index');
 Route::get('/login', 'AccountController@login')->name('login');
 Route::get('/register', 'AccountController@register')->name('register');
 Route::get('/profile/{user}', 'UserController@profile')->name('user.profile');

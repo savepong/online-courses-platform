@@ -46,8 +46,8 @@
                         <div class="uk-navbar-left uk-visible@m">
                             <a href="{{route('index')}}" class="uk-logo"> <i class="fas fa-graduation-cap"> </i> {{config('app.name')}}</a>
                             <ul class="uk-navbar-nav uk-margin-small-left">
-                                <li class="uk-active">
-                                    <a href="{{route('course.index')}}"> Courses </a>
+                                <li >
+                                    <a href="{{route('course.index')}}">Courses</a>
                                     <!-- drop topic list -->
                                     <div uk-drop="pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small" class="uk-drop angle-top-left"> 
                                         <div class="tm-drop-topic">
@@ -219,7 +219,10 @@
                                             </div>                                             
                                         </div>                                         
                                     </div>
-                                </li>                                    
+                                </li>      
+                                <li>
+                                    <a href="{{route('articles')}}">Articles</a>    
+                                </li>                              
                             </ul>
                         </div>                         
                         <div class="uk-navbar-right tm-show-on-mobile uk-flex-right" id="tm-show-on-mobile"> 
