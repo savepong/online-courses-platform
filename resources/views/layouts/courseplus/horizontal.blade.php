@@ -44,7 +44,10 @@
                         <!-- mobile logo -->                         
                         <a class="uk-hidden@m uk-logo" href="{{route('index')}}"> {{config('app.name')}}</a> 
                         <div class="uk-navbar-left uk-visible@m">
-                            <a href="{{route('index')}}" class="uk-logo"> <i class="fas fa-graduation-cap"> </i> {{config('app.name')}}</a>
+                            <a href="{{route('index')}}" class="uk-logo"> 
+                                {{-- <img src="{{asset('images/logos/'.config('app.logo'))}}" alt=""> --}}
+                                <i class="fas fa-graduation-cap"> </i> {{config('app.name')}}
+                            </a>
                             <ul class="uk-navbar-nav uk-margin-small-left">
                                 <li >
                                     <a href="{{route('course.index')}}">Courses</a>
