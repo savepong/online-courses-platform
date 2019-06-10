@@ -132,6 +132,13 @@ class AdminController extends Controller
         return view("admin.users", compact('users'));
     }
 
+    public function forceUserLogin($id)
+    {
+        auth()->loginUsingId($id);
+
+        return redirect('profile');
+    }
+
 
     /**
      * Orders
