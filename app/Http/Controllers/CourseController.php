@@ -34,13 +34,13 @@ class CourseController extends Controller
     {
         $courses = Course::latestFirst()
                         ->published()
-                        ->filter(request()->only(['q']))->get();
-                        // ->paginate($this->limit);
+                        ->filter(request()->only(['q']))
+                        ->paginate($this->limit);
 
-        // $carousels = Carousel::whereNotNull('image')->orderBy('updated_at', 'DESC')->get();
+        $carousels = Carousel::whereNotNull('image')->orderBy('updated_at', 'DESC')->get();
 
-        return view('frontend.course.index', compact('courses'));
-        // return view('course.index', compact('courses', 'carousels'));
+        return view('course.index', compact('courses', 'carousels'));
+        // return view('frontend.course.index', compact('courses'));
     }
 
     

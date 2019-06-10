@@ -11,7 +11,8 @@
 |
 */
 
-
+Route::get('/', 'FrontendController@index')->name('index')->where('any', '.*');
+Route::get('/articles', 'FrontendController@articles')->name('articles');
 
 
 /** Local Streaming */
@@ -114,7 +115,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 /** Account */
-Route::any('/courses', 'CourseController@index')->name('index');
+Route::any('/courses', 'CourseController@index')->name('course.index');
 Route::get('/login', 'AccountController@login')->name('login');
 Route::get('/register', 'AccountController@register')->name('register');
 Route::get('/profile/{user}', 'UserController@profile')->name('user.profile');
@@ -157,12 +158,3 @@ Route::get('/vod/{video?}', function(){
     return view('video');
 })->name('vod');
 
-
-
-Route::get('/', function (){
-    $courses= App\Course::with('category')->get();
-    $posts = App\Post::all();
-    $categories = App\Category::all();
-
-    return view('frontend.index', compact('courses', 'posts', 'categories'));
-})->name('index')->where('any', '.*');

@@ -316,9 +316,9 @@
                             <div class="uk-card-body"> 
                                 <h4> {{course.title}}</h4> 
                                 <div v-html="course.excerpt"></div> 
-                                <hr class="uk-margin-remove-top"> 
+                                <!-- <hr class="uk-margin-remove-top"> 
                                 <a class="Course-tags uk-margin-small-right tags-active" href="course-tags.html"> Web Development </a> 
-                                <a class="Course-tags" href="course-tags.html"> Beginner </a> 
+                                <a class="Course-tags" href="course-tags.html"> Beginner </a>  -->
                             </div>                                     
                         </a>                                 
                     </div>                             
