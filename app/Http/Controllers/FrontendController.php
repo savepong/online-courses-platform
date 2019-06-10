@@ -11,7 +11,8 @@ class FrontendController extends Controller
 {
     public function index()
     {
-        $courses= Course::with('category')->get();
+        $courses= Course::with('category')->latestFirst()
+        ->published()->get();
         $posts = Post::all();
         $categories = Category::all();
 
@@ -21,7 +22,7 @@ class FrontendController extends Controller
     public function articles()
     {
         $posts = Post::latestFirst()
-                        // ->published()
+                        ->published()
                         ->filter(request()->only(['q']))->get();
                         // ->paginate(20);
 

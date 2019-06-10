@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Vcommerce Courses'),
+    'logo' => env('APP_LOGO', 'sangsanidea.png'),
 
     /*
     |--------------------------------------------------------------------------
