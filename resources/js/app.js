@@ -6,7 +6,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import IndexPage from './pages/IndexPage'
-// import ArticlesPage from './pages/ArticlesPage'
+import ArticlesPage from './pages/ArticlesPage'
 
 
 Vue.component('header-component', require('./components/HeaderComponent.vue').default);
@@ -24,6 +24,11 @@ const router = new VueRouter({
             name: 'courses.index',
             component: IndexPage,
         },
+        {
+            path: '/articles',
+            name: 'articles.index',
+            component: ArticlesPage,
+        },
     ],
 });
 
@@ -33,4 +38,5 @@ const app = new Vue({
     components: {
         'index-page': IndexPage 
     },
+    router,
 });

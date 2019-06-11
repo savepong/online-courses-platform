@@ -9,11 +9,12 @@
                     <!-- mobile icon for user icon on nav-mobile -->                         
                     <span class="uk-hidden@m tm-mobile-user-icon uk-align-right" uk-toggle="target: #tm-show-on-mobile; cls: tm-show-on-mobile-active"><i class="fas fa-user icon-large"></i></span> 
                     <!-- mobile logo -->                         
-                    <a class="uk-hidden@m uk-logo" href="/"> {{appName}}</a> 
+
+                    <router-link to="/" class="uk-hidden@m uk-logo">{{appName}}</router-link>
+
                     <div class="uk-navbar-left uk-visible@m">
-                        <a href="/" class="uk-logo"> 
-                            <i class="fas fa-graduation-cap"> </i> {{appName}}
-                        </a>
+                        <router-link to="/" class="uk-logo"><i class="fas fa-graduation-cap"> </i> {{appName}}</router-link>
+
                         <ul class="uk-navbar-nav uk-margin-small-left">
                             <li >
                                 <a href="/">Courses</a>
@@ -190,8 +191,7 @@
                                 </div>
                             </li>      
                             <li>
-                                <a href="#"> Articles </a>
-                                <!-- <router-link to="/articles">Articles</router-link> -->
+                                <router-link to="/articles">Articles</router-link>
                             </li>                              
                         </ul>
                     </div>                         

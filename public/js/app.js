@@ -2732,6 +2732,50 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['posts'],
+  components: {}
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/IndexPage.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/IndexPage.vue?vue&type=script&lang=js& ***!
@@ -22456,19 +22500,44 @@ var render = function() {
                 _vm._m(1),
                 _vm._v(" "),
                 _c(
-                  "a",
-                  { staticClass: "uk-hidden@m uk-logo", attrs: { href: "/" } },
-                  [_vm._v(" " + _vm._s(_vm.appName))]
+                  "router-link",
+                  { staticClass: "uk-hidden@m uk-logo", attrs: { to: "/" } },
+                  [_vm._v(_vm._s(_vm.appName))]
                 ),
                 _vm._v(" "),
-                _c("div", { staticClass: "uk-navbar-left uk-visible@m" }, [
-                  _c("a", { staticClass: "uk-logo", attrs: { href: "/" } }, [
-                    _c("i", { staticClass: "fas fa-graduation-cap" }),
-                    _vm._v(" " + _vm._s(_vm.appName) + "\n                    ")
-                  ]),
-                  _vm._v(" "),
-                  _vm._m(2)
-                ]),
+                _c(
+                  "div",
+                  { staticClass: "uk-navbar-left uk-visible@m" },
+                  [
+                    _c(
+                      "router-link",
+                      { staticClass: "uk-logo", attrs: { to: "/" } },
+                      [
+                        _c("i", { staticClass: "fas fa-graduation-cap" }),
+                        _vm._v(" " + _vm._s(_vm.appName))
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "uk-navbar-nav uk-margin-small-left" },
+                      [
+                        _vm._m(2),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          [
+                            _c("router-link", { attrs: { to: "/articles" } }, [
+                              _vm._v("Articles")
+                            ])
+                          ],
+                          1
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
                 _vm._v(" "),
                 _vm._m(3),
                 _vm._v(" "),
@@ -22542,7 +22611,8 @@ var render = function() {
                     )
                   ]
                 )
-              ]
+              ],
+              1
             )
           ])
         ]
@@ -22584,473 +22654,462 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "uk-navbar-nav uk-margin-small-left" }, [
-      _c("li", [
-        _c("a", { attrs: { href: "/" } }, [_vm._v("Courses")]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "uk-drop angle-top-left",
-            attrs: {
-              "uk-drop":
-                "pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small"
-            }
-          },
-          [
-            _c("div", { staticClass: "tm-drop-topic" }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "uk-grid-collapse uk-grid-match uk-grid uk-grid-stack",
-                  attrs: { "uk-grid": "" }
-                },
-                [
-                  _c("div", { staticClass: "uk-width-1-2" }, [
-                    _c(
-                      "ul",
-                      {
-                        staticClass:
-                          "tm-drop-topic-list uk-card uk-card-default uk-margin-remove uk-box-shadow-large uk-tab",
-                        attrs: {
-                          "uk-tab":
-                            "connect: #component-tab-left;animation: uk-animation-slide-left-small, uk-animation-slide-right-small"
-                        }
-                      },
-                      [
+    return _c("li", [
+      _c("a", { attrs: { href: "/" } }, [_vm._v("Courses")]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "uk-drop angle-top-left",
+          attrs: {
+            "uk-drop":
+              "pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small"
+          }
+        },
+        [
+          _c("div", { staticClass: "tm-drop-topic" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "uk-grid-collapse uk-grid-match uk-grid uk-grid-stack",
+                attrs: { "uk-grid": "" }
+              },
+              [
+                _c("div", { staticClass: "uk-width-1-2" }, [
+                  _c(
+                    "ul",
+                    {
+                      staticClass:
+                        "tm-drop-topic-list uk-card uk-card-default uk-margin-remove uk-box-shadow-large uk-tab",
+                      attrs: {
+                        "uk-tab":
+                          "connect: #component-tab-left;animation: uk-animation-slide-left-small, uk-animation-slide-right-small"
+                      }
+                    },
+                    [
+                      _c(
+                        "li",
+                        {
+                          staticClass: "uk-active",
+                          attrs: { "aria-expanded": "true" }
+                        },
+                        [
+                          _c("a", { attrs: { href: "#" } }, [
+                            _c("i", {
+                              staticClass:
+                                "far fa-credit-card  uk-margin-small-right"
+                            }),
+                            _vm._v(" Web Development "),
+                            _c("i", {
+                              staticClass:
+                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                            })
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-briefcase   uk-margin-small-right"
+                          }),
+                          _vm._v("   Business  "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-pencil-ruler  uk-margin-small-right"
+                          }),
+                          _vm._v("   Office Productivity  "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass: "fas fa-brain  uk-margin-small-right"
+                          }),
+                          _vm._v("    Personal Development "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass: "fas fa-bullhorn uk-margin-small-right"
+                          }),
+                          _vm._v("   Marketing  "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-life-ring  uk-margin-small-right"
+                          }),
+                          _vm._v("   Life Style "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass: "fas fa-box uk-margin-small-right"
+                          }),
+                          _vm._v("    IT & Software "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right  uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass: "fas fa-camera uk-margin-small-right"
+                          }),
+                          _vm._v("   Photography "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-briefcase-medical uk-margin-small-right"
+                          }),
+                          _vm._v("   Health & Fitness "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-shopping-bag  uk-margin-small-right"
+                          }),
+                          _vm._v("   Ecommerce "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-utensils  uk-margin-small-right"
+                          }),
+                          _vm._v("   Food & cooking "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "uk-width-1-2 uk-width-1-2" }, [
+                  _c(
+                    "ul",
+                    {
+                      staticClass:
+                        "uk-switcher uk-card uk-card-default uk-box-shadow-large",
+                      attrs: { id: "component-tab-left" }
+                    },
+                    [
+                      _c("li", { staticClass: "uk-active" }, [
                         _c(
-                          "li",
+                          "ul",
                           {
-                            staticClass: "uk-active",
-                            attrs: { "aria-expanded": "true" }
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
                           },
                           [
-                            _c("a", { attrs: { href: "#" } }, [
-                              _c("i", {
-                                staticClass:
-                                  "far fa-credit-card  uk-margin-small-right"
-                              }),
-                              _vm._v(" Web Development "),
-                              _c("i", {
-                                staticClass:
-                                  "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                              })
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" All Development")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Web  Development ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Mobile App  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Programming language  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Game Development  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Software   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Development tools  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Ecommerce  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Training")
+                              ])
                             ])
                           ]
-                        ),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-briefcase   uk-margin-small-right"
-                            }),
-                            _vm._v("   Business  "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-pencil-ruler  uk-margin-small-right"
-                            }),
-                            _vm._v("   Office Productivity  "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass: "fas fa-brain  uk-margin-small-right"
-                            }),
-                            _vm._v("    Personal Development "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-bullhorn uk-margin-small-right"
-                            }),
-                            _vm._v("   Marketing  "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-life-ring  uk-margin-small-right"
-                            }),
-                            _vm._v("   Life Style "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass: "fas fa-box uk-margin-small-right"
-                            }),
-                            _vm._v("    IT & Software "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right  uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass: "fas fa-camera uk-margin-small-right"
-                            }),
-                            _vm._v("   Photography "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-briefcase-medical uk-margin-small-right"
-                            }),
-                            _vm._v("   Health & Fitness "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-shopping-bag  uk-margin-small-right"
-                            }),
-                            _vm._v("   Ecommerce "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-utensils  uk-margin-small-right"
-                            }),
-                            _vm._v("   Food & cooking "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ])
-                      ]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "uk-width-1-2 uk-width-1-2" }, [
-                    _c(
-                      "ul",
-                      {
-                        staticClass:
-                          "uk-switcher uk-card uk-card-default uk-box-shadow-large",
-                        attrs: { id: "component-tab-left" }
-                      },
-                      [
-                        _c("li", { staticClass: "uk-active" }, [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" All Development")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Web  Development ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Mobile App  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Programming language  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Game Development  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Software   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Development tools  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Ecommerce  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Training")
-                                ])
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" All Business ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" All Business ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Finance ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Sales  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Startegy  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Sales  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Finance ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Hadware   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Operating system  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Network  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Sales  ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Leadership   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Productivity    ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Personal Finance  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Startegy  ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" All Marketing   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Digital Marketing    ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Search Engine Optimization  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Sales  ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Food   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Travel    ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Gaming   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Other  ")
                               ])
-                            ]
-                          )
-                        ])
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" Articles ")])])
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Hadware   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Operating system  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Network  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Other  ")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Leadership   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Productivity    ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Personal Finance  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Other  ")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" All Marketing   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Digital Marketing    ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Search Engine Optimization  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Other  ")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Food   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Travel    ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Gaming   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Other  ")
+                              ])
+                            ])
+                          ]
+                        )
+                      ])
+                    ]
+                  )
+                ])
+              ]
+            )
+          ])
+        ]
+      )
     ])
   },
   function() {
@@ -24452,6 +24511,96 @@ var staticRenderFns = [
             )
           ]
         )
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "uk-container" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass:
+          "uk-margin uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s",
+        attrs: {
+          "uk-scrollspy":
+            "target: > div; cls:uk-animation-slide-bottom-small; delay: 200",
+          "uk-grid": ""
+        }
+      },
+      _vm._l(_vm.posts, function(post) {
+        return _c("div", { key: post.id }, [
+          _c("a", { attrs: { href: "blog-post-single.html" } }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "uk-card-default uk-card-hover uk-card-small uk-margin-medium-bottom uk-inline-clip border-radius-6"
+              },
+              [
+                _c("img", { attrs: { src: post.image_url } }),
+                _vm._v(" "),
+                _c("div", { staticClass: "uk-card-body" }, [
+                  _c(
+                    "h4",
+                    { staticClass: "uk-margin uk-margin-remove-bottom" },
+                    [_vm._v(" " + _vm._s(post.title) + "  ")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", [_vm._v(" " + _vm._s(post.excerpt) + "  ")])
+                ])
+              ]
+            )
+          ])
+        ])
+      }),
+      0
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "section-heading uk-position-relative uk-margin-medium-top none-border uk-clearfix"
+      },
+      [
+        _c("div", { staticClass: "uk-float-left" }, [
+          _c("h1", { staticClass: "uk-margin-remove-bottom" }, [
+            _vm._v(" Articles")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Adipisici elit, sed eiusmod tempor incidunt ut labore et")
+          ])
+        ])
       ]
     )
   }
@@ -39458,12 +39607,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _pages_IndexPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/IndexPage */ "./resources/js/pages/IndexPage.vue");
+/* harmony import */ var _pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/ArticlesPage */ "./resources/js/pages/ArticlesPage.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 
 
- // import ArticlesPage from './pages/ArticlesPage'
+
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('header-component', __webpack_require__(/*! ./components/HeaderComponent.vue */ "./resources/js/components/HeaderComponent.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('navigation-component', __webpack_require__(/*! ./components/NavigationComponent.vue */ "./resources/js/components/NavigationComponent.vue")["default"]);
@@ -39475,13 +39625,18 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     path: '',
     name: 'courses.index',
     component: _pages_IndexPage__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }, {
+    path: '/articles',
+    name: 'articles.index',
+    component: _pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_3__["default"]
   }]
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   components: {
     'index-page': _pages_IndexPage__WEBPACK_IMPORTED_MODULE_2__["default"]
-  }
+  },
+  router: router
 });
 
 /***/ }),
@@ -39924,6 +40079,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/ArticlesPage.vue":
+/*!*********************************************!*\
+  !*** ./resources/js/pages/ArticlesPage.vue ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ArticlesPage.vue?vue&type=template&id=7e06d675& */ "./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&");
+/* harmony import */ var _ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ArticlesPage.vue?vue&type=script&lang=js& */ "./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/ArticlesPage.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&":
+/*!**********************************************************************!*\
+  !*** ./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ArticlesPage.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675& ***!
+  \****************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ArticlesPage.vue?vue&type=template&id=7e06d675& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

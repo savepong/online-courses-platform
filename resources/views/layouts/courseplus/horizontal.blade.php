@@ -40,7 +40,8 @@
             <navigation-component></navigation-component>
 
             <main>
-                @yield('content')          
+                <router-view></router-view>
+                {{-- @yield('content')           --}}
             </main>         
             
             <!-- footer -->         
