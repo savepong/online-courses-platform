@@ -2741,6 +2741,14 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
 //
 //
 //
@@ -2770,8 +2778,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['posts'],
-  components: {}
+  // props: ['posts'],
+  components: {},
+  data: function data() {
+    return {
+      posts: []
+    };
+  },
+  created: function created() {
+    this.fetch("/api/posts");
+  },
+  methods: {
+    fetch: function fetch(endpoint) {
+      var _this = this;
+
+      // this.answerIds = [];
+      axios.get(endpoint).then(function (_ref) {
+        var _this$posts;
+
+        var data = _ref.data;
+
+        // this.answerIds = data.data.map(a => a.id);
+        (_this$posts = _this.posts).push.apply(_this$posts, _toConsumableArray(data.data)); // this.nextUrl = data.next_page_url;
+
+      }); // .then(() => {
+      //     this.answerIds.forEach(id => {
+      //         this.highlight(`answer-${id}`)
+      //     })
+      // })
+    }
+  }
 });
 
 /***/ }),

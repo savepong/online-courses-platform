@@ -24,12 +24,19 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $posts = Post::latestFirst()
-                        ->published()
-                        ->filter(request()->only(['q']))
+                        // ->published()
+                        // ->filter(request()->only(['q']))
                         ->paginate($this->limit);
+
+        if($request->expectsJson()) {
+            return response()->json([
+                'message' => "Success",
+                'data' => $posts->load('author')
+            ]);
+        }
 
         return view('post.index', compact('posts'));
     }
