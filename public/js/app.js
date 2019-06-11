@@ -23360,6 +23360,1108 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "uk-navbar-sticky uk-background-grey ",
+        attrs: {
+          "uk-sticky":
+            "show-on-up: true; animation: uk-animation-slide-top;offset: 85"
+        }
+      },
+      [
+        _c(
+          "nav",
+          {
+            staticClass:
+              "uk-padding-small uk-visible@m uk-navbar-transparent uk-animation-slide-to uk-position-z-index",
+            attrs: { "uk-navbar": "" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "uk-flex uk-flex-center uk-width-expand" },
+              [
+                _c("ul", { staticClass: "uk-subnav uk-subnav-2" }, [
+                  _c("li", { staticClass: "uk-active" }, [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-play icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Courses ")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "uk-drop angle-top-left",
+                        attrs: {
+                          "uk-drop":
+                            "pos: top-left ;mode:click ; offset: 10;animation: uk-animation-slide-bottom-small"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "tm-drop-topic" }, [
+                          _c(
+                            "div",
+                            {
+                              staticClass: "uk-grid-collapse uk-grid-match",
+                              attrs: { "uk-grid": "" }
+                            },
+                            [
+                              _c("div", { staticClass: "uk-width-1-2" }, [
+                                _c(
+                                  "ul",
+                                  {
+                                    staticClass:
+                                      "tm-drop-topic-list uk-card uk-card-default uk-margin-remove uk-box-shadow-large",
+                                    attrs: {
+                                      "uk-tab":
+                                        "connect: #component-tab-left;animation: uk-animation-slide-left-small, uk-animation-slide-right-small"
+                                    }
+                                  },
+                                  [
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "far fa-credit-card  uk-margin-small-right"
+                                        }),
+                                        _vm._v(" Web Development "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-briefcase   uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Business  "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-pencil-ruler  uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Office Productivity  "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-brain  uk-margin-small-right"
+                                        }),
+                                        _vm._v("    Personal Development "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-bullhorn uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Marketing  "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-life-ring  uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Life Style "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-camera uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Photography "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-briefcase-medical uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Health & Fitness "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-shopping-bag  uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Ecommerce "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-utensils  uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Food & cooking "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "uk-width-1-2 uk-width-1-2" },
+                                [
+                                  _c(
+                                    "ul",
+                                    {
+                                      staticClass:
+                                        "uk-switcher uk-card uk-card-default uk-box-shadow-large",
+                                      attrs: { id: "component-tab-left" }
+                                    },
+                                    [
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" All Development")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Web  Development ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Mobile App  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "  Programming language  "
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Game Development  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Software   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "  Development tools  "
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Ecommerce  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Training")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" All Business ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Finance ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Sales  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Startegy  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Sales  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Hadware   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Operating system  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Network  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Leadership   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Productivity    ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Personal Finance  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" All Marketing   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    " Digital Marketing    "
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    " Search Engine Optimization  "
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Food   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Travel    ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Gaming   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ])
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "books.html" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-book-open icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Books ")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-file-alt icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Blogs ")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { attrs: { "uk-dropdown": "" } }, [
+                      _c("ul", { staticClass: "uk-nav uk-dropdown-nav" }, [
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog.html" } }, [
+                            _vm._v(" Blogs ")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog.html" } }, [
+                            _vm._v(" Articles")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          { staticClass: "uk-nav-header uk-margin-small-top" },
+                          [_vm._v(" Blog Videos ")]
+                        ),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog-video.html" } }, [
+                            _vm._v(" Video Layout 1 ")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog-video-post.html" } }, [
+                            _vm._v(" Video Layout 2 ")
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-code icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Scripts ")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "uk-drop tm-dropdown-medium",
+                        attrs: {
+                          "uk-drop":
+                            "pos: top  ;mode:click ; offset: 10;animation: uk-animation-slide-bottom-small"
+                        }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "uk-card-small uk-box-shadow-xlarge uk-card-default uk-maring-small-left  border-radius-6"
+                          },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "uk-card uk-card-default border-radius-6"
+                              },
+                              [
+                                _c("div", { staticClass: "uk-card-body" }, [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "uk-child-width-1-3 uk-grid-collapse  uk-text-small uk-text-center uk-flex-center",
+                                      attrs: { "uk-grid": "" }
+                                    },
+                                    [
+                                      _c("div", [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass: "uk-link-reset",
+                                            attrs: { href: "scripts.html" }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fab fa-html5 info-big-icon"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "uk-margin-small-top uk-margin-remove-bottom"
+                                              },
+                                              [_vm._v("  Html templates   ")]
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass: "uk-link-reset",
+                                            attrs: { href: "scripts.html" }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fab fa-php info-big-icon"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "uk-margin-small-top uk-margin-remove-bottom"
+                                              },
+                                              [_vm._v("    PHP Scripts  ")]
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass: "uk-link-reset",
+                                            attrs: { href: "scripts.html" }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fab fa-wordpress info-big-icon"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "uk-margin-small-top uk-margin-remove-bottom"
+                                              },
+                                              [_vm._v("    Cms Plugins  ")]
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "uk-margin-small-top" },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass: "uk-link-reset",
+                                              attrs: { href: "scripts.html" }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fab fa-wordpress-simple info-big-icon"
+                                              }),
+                                              _vm._v(" "),
+                                              _c(
+                                                "p",
+                                                {
+                                                  staticClass:
+                                                    "uk-margin-small-top uk-margin-remove-bottom"
+                                                },
+                                                [_vm._v("  Cms themes  ")]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "uk-margin-small-top" },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass: "uk-link-reset",
+                                              attrs: { href: "scripts.html" }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fab fa-android info-big-icon"
+                                              }),
+                                              _vm._v(" "),
+                                              _c(
+                                                "p",
+                                                {
+                                                  staticClass:
+                                                    "uk-margin-small-top uk-margin-remove-bottom"
+                                                },
+                                                [_vm._v("   Apps Source    ")]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "uk-margin-small-top" },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass: "uk-link-reset",
+                                              attrs: { href: "scripts.html" }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fas fa-code  info-big-icon"
+                                              }),
+                                              _vm._v(" "),
+                                              _c(
+                                                "p",
+                                                {
+                                                  staticClass:
+                                                    "uk-margin-small-top uk-margin-remove-bottom"
+                                                },
+                                                [_vm._v("  All Scripts  ")]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "discussion.html" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-comment-alt icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Discussion ")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-clone icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Pages ")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "tm-dropdown-medium",
+                        attrs: { "uk-dropdown": "mode:click ;" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "uk-dropdown-grid uk-child-width-1-2@m",
+                            attrs: { "uk-grid": "" }
+                          },
+                          [
+                            _c("div", [
+                              _c(
+                                "ul",
+                                { staticClass: "uk-nav uk-dropdown-nav" },
+                                [
+                                  _c("li", [
+                                    _c("a", { attrs: { href: "help.html" } }, [
+                                      _vm._v(" Help ")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "pages-term.html" } },
+                                      [_vm._v(" Terms ")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "pages-faq.html" } },
+                                      [_vm._v(" Faq ")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "pages-term.html" } },
+                                      [_vm._v(" About    ")]
+                                    )
+                                  ])
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", [
+                              _c(
+                                "ul",
+                                { staticClass: "uk-nav uk-dropdown-nav" },
+                                [
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "profile.html" } },
+                                      [_vm._v(" Profile  ")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "ui-elements.html" } },
+                                      [_vm._v(" UI Elements  ")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "ui-compuntes.html" } },
+                                      [_vm._v(" Ui Compuntes")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "ui-helpers.html" } },
+                                      [_vm._v(" Ui Helpers ")]
+                                    )
+                                  ])
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            )
+          ]
+        )
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/IndexPage.vue?vue&type=template&id=4bff76c8&scoped=true&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/IndexPage.vue?vue&type=template&id=4bff76c8&scoped=true& ***!
@@ -38364,6 +39466,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
  // import ArticlesPage from './pages/ArticlesPage'
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('header-component', __webpack_require__(/*! ./components/HeaderComponent.vue */ "./resources/js/components/HeaderComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('navigation-component', __webpack_require__(/*! ./components/NavigationComponent.vue */ "./resources/js/components/NavigationComponent.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footer-component', __webpack_require__(/*! ./components/FooterComponent.vue */ "./resources/js/components/FooterComponent.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
@@ -38768,6 +39871,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderComponent_vue_vue_type_template_id_153bfd55___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderComponent_vue_vue_type_template_id_153bfd55___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/NavigationComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/NavigationComponent.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NavigationComponent.vue?vue&type=template&id=34a84aa4& */ "./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/NavigationComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./NavigationComponent.vue?vue&type=template&id=34a84aa4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
