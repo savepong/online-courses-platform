@@ -10,6 +10,7 @@ import IndexPage from './pages/IndexPage'
 
 
 Vue.component('header-component', require('./components/HeaderComponent.vue').default);
+Vue.component('footer-component', require('./components/FooterComponent.vue').default);
 
 Vue.use(VueRouter)
 
