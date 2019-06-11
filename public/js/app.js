@@ -2309,6 +2309,102 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FooterComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FooterComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      appName: "OnlineCourses"
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/HeaderComponent.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/HeaderComponent.vue?vue&type=script&lang=js& ***!
@@ -2631,6 +2727,86 @@ __webpack_require__.r(__webpack_exports__);
     return {
       appName: "OnlineCourses"
     };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  // props: ['posts'],
+  components: {},
+  data: function data() {
+    return {
+      posts: []
+    };
+  },
+  created: function created() {
+    this.fetch("/api/posts");
+  },
+  methods: {
+    fetch: function fetch(endpoint) {
+      var _this = this;
+
+      // this.answerIds = [];
+      axios.get(endpoint).then(function (_ref) {
+        var _this$posts;
+
+        var data = _ref.data;
+
+        // this.answerIds = data.data.map(a => a.id);
+        (_this$posts = _this.posts).push.apply(_this$posts, _toConsumableArray(data.data)); // this.nextUrl = data.next_page_url;
+
+      }); // .then(() => {
+      //     this.answerIds.forEach(id => {
+      //         this.highlight(`answer-${id}`)
+      //     })
+      // })
+    }
   }
 });
 
@@ -22027,6 +22203,298 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "uk-section-small uk-margin-medium-top" }, [
+    _c("hr", { staticClass: "uk-margin-remove" }),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass:
+          "uk-container uk-align-center uk-margin-remove-bottom uk-position-relative"
+      },
+      [
+        _c("div", { attrs: { "uk-grid": "" } }, [
+          _c(
+            "div",
+            { staticClass: "uk-width-1-3@m uk-width-1-2@s uk-first-column" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass: "uk-link-heading uk-text-lead uk-text-bold",
+                  attrs: { href: "pages-about.html" }
+                },
+                [
+                  _c("i", { staticClass: "fas fa-graduation-cap" }),
+                  _vm._v("  " + _vm._s(_vm.appName))
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "uk-width-xlarge tm-footer-description" },
+                [
+                  _vm._v(
+                    "A unique and beautiful collection of UI elements that are all flexible and modular.   building the website of your dreams."
+                  )
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2)
+        ]),
+        _vm._v(" "),
+        _c("hr"),
+        _vm._v(" "),
+        _vm._m(3),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "uk-margin-small", attrs: { "uk-grid": "" } },
+          [
+            _c(
+              "div",
+              { staticClass: "uk-width-1-2@m uk-width-1-2@s uk-first-column" },
+              [
+                _c("p", { staticClass: "uk-text-small" }, [
+                  _c("i", { staticClass: "fas fa-copyright" }),
+                  _vm._v(" 2019 "),
+                  _c("span", { staticClass: "uk-text-bold" }, [
+                    _vm._v(_vm._s(_vm.appName))
+                  ]),
+                  _vm._v(" . All rights reserved.")
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _vm._m(4)
+          ]
+        )
+      ]
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "uk-width-expand@m uk-width-1-2@s" }, [
+      _c("ul", { staticClass: "uk-list  tm-footer-list" }, [
+        _c("li", [
+          _c("a", { attrs: { href: "#" } }, [_vm._v(" Browse Our Library ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#" } }, [_vm._v(" Tutorials/Articles ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#" } }, [_vm._v(" Scripts and codes")])
+        ]),
+        _vm._v(" "),
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" Ebooks")])])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "uk-width-expand@m uk-width-1-2@s" }, [
+      _c("ul", { staticClass: "uk-list tm-footer-list" }, [
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" About us ")])]),
+        _vm._v(" "),
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" Contact Us ")])]),
+        _vm._v(" "),
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" Privacy   ")])]),
+        _vm._v(" "),
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("   Policy ")])])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "uk-width-expand@m uk-width-1-2@s" }, [
+      _c("ul", { staticClass: "uk-list  tm-footer-list" }, [
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Web Design ")])]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Web Development  ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#" } }, [_vm._v(" iOS Development ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("  PHP Development ")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "p",
+      {
+        staticClass:
+          "uk-postion-absoult uk-margin-remove uk-position-bottom-right",
+        staticStyle: { bottom: "8px", right: "60px" },
+        attrs: { "uk-tooltip": "title: Visit Our Site; pos: top-center" }
+      },
+      [
+        _vm._v(" Powered By "),
+        _c(
+          "a",
+          {
+            staticClass: "uk-text-bold uk-link-reset",
+            attrs: { href: "https://ideagital.com", target: "_blank" }
+          },
+          [_vm._v("IDEAGITAL TECH")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "uk-width-1-3@m uk-width-1-2@s" }, [
+      _c(
+        "a",
+        {
+          staticClass: "uk-icon-button uk-link-reset",
+          attrs: {
+            href: "#",
+            "uk-tooltip": "title: Our Youtube Chanal; pos: top-center"
+          }
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-youtube",
+            staticStyle: { color: "#fb7575  !important" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "uk-icon-button uk-link-reset",
+          attrs: {
+            href: "#",
+            "uk-tooltip": "title: Our Facebook; pos: top-center"
+          }
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-Facebook",
+            staticStyle: { color: "#9160ec  !important" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "uk-icon-button uk-link-reset",
+          attrs: {
+            href: "#",
+            "uk-tooltip": "title: Our Instagram; pos: top-center"
+          }
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-Instagram",
+            staticStyle: { color: "#dc2d2d  !important" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "uk-icon-button uk-link-reset",
+          attrs: {
+            href: "#",
+            "uk-tooltip": "title: Our linkedin; pos: top-center"
+          }
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-linkedin ",
+            staticStyle: { color: "#6949a5  !important" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "uk-icon-button uk-link-reset",
+          attrs: {
+            href: "#",
+            "uk-tooltip": "title: Our google-plus; pos: top-center"
+          }
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-google-plus",
+            staticStyle: { color: "#f77070 !important" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "uk-icon-button uk-link-reset",
+          attrs: {
+            href: "#",
+            "uk-tooltip": "title: Our Twitter; pos: top-center"
+          }
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-twitter",
+            staticStyle: { color: "#6f23ff !important" }
+          })
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/HeaderComponent.vue?vue&type=template&id=153bfd55&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/HeaderComponent.vue?vue&type=template&id=153bfd55& ***!
@@ -22068,19 +22536,44 @@ var render = function() {
                 _vm._m(1),
                 _vm._v(" "),
                 _c(
-                  "a",
-                  { staticClass: "uk-hidden@m uk-logo", attrs: { href: "/" } },
-                  [_vm._v(" " + _vm._s(_vm.appName))]
+                  "router-link",
+                  { staticClass: "uk-hidden@m uk-logo", attrs: { to: "/" } },
+                  [_vm._v(_vm._s(_vm.appName))]
                 ),
                 _vm._v(" "),
-                _c("div", { staticClass: "uk-navbar-left uk-visible@m" }, [
-                  _c("a", { staticClass: "uk-logo", attrs: { href: "/" } }, [
-                    _c("i", { staticClass: "fas fa-graduation-cap" }),
-                    _vm._v(" " + _vm._s(_vm.appName) + "\n                    ")
-                  ]),
-                  _vm._v(" "),
-                  _vm._m(2)
-                ]),
+                _c(
+                  "div",
+                  { staticClass: "uk-navbar-left uk-visible@m" },
+                  [
+                    _c(
+                      "router-link",
+                      { staticClass: "uk-logo", attrs: { to: "/" } },
+                      [
+                        _c("i", { staticClass: "fas fa-graduation-cap" }),
+                        _vm._v(" " + _vm._s(_vm.appName))
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "uk-navbar-nav uk-margin-small-left" },
+                      [
+                        _vm._m(2),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          [
+                            _c("router-link", { attrs: { to: "/articles" } }, [
+                              _vm._v("Articles")
+                            ])
+                          ],
+                          1
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
                 _vm._v(" "),
                 _vm._m(3),
                 _vm._v(" "),
@@ -22154,7 +22647,8 @@ var render = function() {
                     )
                   ]
                 )
-              ]
+              ],
+              1
             )
           ])
         ]
@@ -22196,473 +22690,462 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "uk-navbar-nav uk-margin-small-left" }, [
-      _c("li", [
-        _c("a", { attrs: { href: "/" } }, [_vm._v("Courses")]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "uk-drop angle-top-left",
-            attrs: {
-              "uk-drop":
-                "pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small"
-            }
-          },
-          [
-            _c("div", { staticClass: "tm-drop-topic" }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "uk-grid-collapse uk-grid-match uk-grid uk-grid-stack",
-                  attrs: { "uk-grid": "" }
-                },
-                [
-                  _c("div", { staticClass: "uk-width-1-2" }, [
-                    _c(
-                      "ul",
-                      {
-                        staticClass:
-                          "tm-drop-topic-list uk-card uk-card-default uk-margin-remove uk-box-shadow-large uk-tab",
-                        attrs: {
-                          "uk-tab":
-                            "connect: #component-tab-left;animation: uk-animation-slide-left-small, uk-animation-slide-right-small"
-                        }
-                      },
-                      [
+    return _c("li", [
+      _c("a", { attrs: { href: "/" } }, [_vm._v("Courses")]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "uk-drop angle-top-left",
+          attrs: {
+            "uk-drop":
+              "pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small"
+          }
+        },
+        [
+          _c("div", { staticClass: "tm-drop-topic" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "uk-grid-collapse uk-grid-match uk-grid uk-grid-stack",
+                attrs: { "uk-grid": "" }
+              },
+              [
+                _c("div", { staticClass: "uk-width-1-2" }, [
+                  _c(
+                    "ul",
+                    {
+                      staticClass:
+                        "tm-drop-topic-list uk-card uk-card-default uk-margin-remove uk-box-shadow-large uk-tab",
+                      attrs: {
+                        "uk-tab":
+                          "connect: #component-tab-left;animation: uk-animation-slide-left-small, uk-animation-slide-right-small"
+                      }
+                    },
+                    [
+                      _c(
+                        "li",
+                        {
+                          staticClass: "uk-active",
+                          attrs: { "aria-expanded": "true" }
+                        },
+                        [
+                          _c("a", { attrs: { href: "#" } }, [
+                            _c("i", {
+                              staticClass:
+                                "far fa-credit-card  uk-margin-small-right"
+                            }),
+                            _vm._v(" Web Development "),
+                            _c("i", {
+                              staticClass:
+                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                            })
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-briefcase   uk-margin-small-right"
+                          }),
+                          _vm._v("   Business  "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-pencil-ruler  uk-margin-small-right"
+                          }),
+                          _vm._v("   Office Productivity  "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass: "fas fa-brain  uk-margin-small-right"
+                          }),
+                          _vm._v("    Personal Development "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass: "fas fa-bullhorn uk-margin-small-right"
+                          }),
+                          _vm._v("   Marketing  "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-life-ring  uk-margin-small-right"
+                          }),
+                          _vm._v("   Life Style "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass: "fas fa-box uk-margin-small-right"
+                          }),
+                          _vm._v("    IT & Software "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right  uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass: "fas fa-camera uk-margin-small-right"
+                          }),
+                          _vm._v("   Photography "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-briefcase-medical uk-margin-small-right"
+                          }),
+                          _vm._v("   Health & Fitness "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-shopping-bag  uk-margin-small-right"
+                          }),
+                          _vm._v("   Ecommerce "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { attrs: { "aria-expanded": "false" } }, [
+                        _c("a", { attrs: { href: "#" } }, [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-utensils  uk-margin-small-right"
+                          }),
+                          _vm._v("   Food & cooking "),
+                          _c("i", {
+                            staticClass:
+                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                          })
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "uk-width-1-2 uk-width-1-2" }, [
+                  _c(
+                    "ul",
+                    {
+                      staticClass:
+                        "uk-switcher uk-card uk-card-default uk-box-shadow-large",
+                      attrs: { id: "component-tab-left" }
+                    },
+                    [
+                      _c("li", { staticClass: "uk-active" }, [
                         _c(
-                          "li",
+                          "ul",
                           {
-                            staticClass: "uk-active",
-                            attrs: { "aria-expanded": "true" }
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
                           },
                           [
-                            _c("a", { attrs: { href: "#" } }, [
-                              _c("i", {
-                                staticClass:
-                                  "far fa-credit-card  uk-margin-small-right"
-                              }),
-                              _vm._v(" Web Development "),
-                              _c("i", {
-                                staticClass:
-                                  "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                              })
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" All Development")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Web  Development ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Mobile App  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Programming language  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Game Development  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Software   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Development tools  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Ecommerce  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Training")
+                              ])
                             ])
                           ]
-                        ),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-briefcase   uk-margin-small-right"
-                            }),
-                            _vm._v("   Business  "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-pencil-ruler  uk-margin-small-right"
-                            }),
-                            _vm._v("   Office Productivity  "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass: "fas fa-brain  uk-margin-small-right"
-                            }),
-                            _vm._v("    Personal Development "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-bullhorn uk-margin-small-right"
-                            }),
-                            _vm._v("   Marketing  "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-life-ring  uk-margin-small-right"
-                            }),
-                            _vm._v("   Life Style "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass: "fas fa-box uk-margin-small-right"
-                            }),
-                            _vm._v("    IT & Software "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right  uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass: "fas fa-camera uk-margin-small-right"
-                            }),
-                            _vm._v("   Photography "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-briefcase-medical uk-margin-small-right"
-                            }),
-                            _vm._v("   Health & Fitness "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-shopping-bag  uk-margin-small-right"
-                            }),
-                            _vm._v("   Ecommerce "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", { attrs: { "aria-expanded": "false" } }, [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "fas fa-utensils  uk-margin-small-right"
-                            }),
-                            _vm._v("   Food & cooking "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ])
-                      ]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "uk-width-1-2 uk-width-1-2" }, [
-                    _c(
-                      "ul",
-                      {
-                        staticClass:
-                          "uk-switcher uk-card uk-card-default uk-box-shadow-large",
-                        attrs: { id: "component-tab-left" }
-                      },
-                      [
-                        _c("li", { staticClass: "uk-active" }, [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" All Development")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Web  Development ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Mobile App  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Programming language  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Game Development  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Software   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Development tools  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Ecommerce  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Training")
-                                ])
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" All Business ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" All Business ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Finance ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Sales  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Startegy  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Sales  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("  Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Finance ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Hadware   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Operating system  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Network  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Sales  ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Leadership   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Productivity    ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Personal Finance  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Startegy  ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" All Marketing   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Digital Marketing    ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Search Engine Optimization  ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Sales  ")
                               ])
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "tm-drop-topic-list uk-padding-remove"
-                            },
-                            [
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Food   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Travel    ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Gaming   ")
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v(" Other  ")
-                                ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("  Other  ")
                               ])
-                            ]
-                          )
-                        ])
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" Articles ")])])
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Hadware   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Operating system  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Network  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Other  ")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Leadership   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Productivity    ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Personal Finance  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Other  ")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" All Marketing   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Digital Marketing    ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Search Engine Optimization  ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Other  ")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "tm-drop-topic-list uk-padding-remove"
+                          },
+                          [
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Food   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Travel    ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Gaming   ")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v(" Other  ")
+                              ])
+                            ])
+                          ]
+                        )
+                      ])
+                    ]
+                  )
+                ])
+              ]
+            )
+          ])
+        ]
+      )
     ])
   },
   function() {
@@ -22962,6 +23445,1198 @@ var staticRenderFns = [
           staticClass: "uk-search-input uk-margin-large-left",
           attrs: { type: "search", placeholder: "Search...", autofocus: "" }
         })
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "uk-navbar-sticky uk-background-grey ",
+        attrs: {
+          "uk-sticky":
+            "show-on-up: true; animation: uk-animation-slide-top;offset: 85"
+        }
+      },
+      [
+        _c(
+          "nav",
+          {
+            staticClass:
+              "uk-padding-small uk-visible@m uk-navbar-transparent uk-animation-slide-to uk-position-z-index",
+            attrs: { "uk-navbar": "" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "uk-flex uk-flex-center uk-width-expand" },
+              [
+                _c("ul", { staticClass: "uk-subnav uk-subnav-2" }, [
+                  _c("li", { staticClass: "uk-active" }, [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-play icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Courses ")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "uk-drop angle-top-left",
+                        attrs: {
+                          "uk-drop":
+                            "pos: top-left ;mode:click ; offset: 10;animation: uk-animation-slide-bottom-small"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "tm-drop-topic" }, [
+                          _c(
+                            "div",
+                            {
+                              staticClass: "uk-grid-collapse uk-grid-match",
+                              attrs: { "uk-grid": "" }
+                            },
+                            [
+                              _c("div", { staticClass: "uk-width-1-2" }, [
+                                _c(
+                                  "ul",
+                                  {
+                                    staticClass:
+                                      "tm-drop-topic-list uk-card uk-card-default uk-margin-remove uk-box-shadow-large",
+                                    attrs: {
+                                      "uk-tab":
+                                        "connect: #component-tab-left;animation: uk-animation-slide-left-small, uk-animation-slide-right-small"
+                                    }
+                                  },
+                                  [
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "far fa-credit-card  uk-margin-small-right"
+                                        }),
+                                        _vm._v(" Web Development "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-briefcase   uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Business  "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-pencil-ruler  uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Office Productivity  "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-brain  uk-margin-small-right"
+                                        }),
+                                        _vm._v("    Personal Development "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-bullhorn uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Marketing  "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-life-ring  uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Life Style "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-camera uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Photography "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-briefcase-medical uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Health & Fitness "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-shopping-bag  uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Ecommerce "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("li", [
+                                      _c("a", { attrs: { href: "#" } }, [
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-utensils  uk-margin-small-right"
+                                        }),
+                                        _vm._v("   Food & cooking "),
+                                        _c("i", {
+                                          staticClass:
+                                            "fas fa-chevron-right uk-position-center-right uk-margin-right"
+                                        })
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "uk-width-1-2 uk-width-1-2" },
+                                [
+                                  _c(
+                                    "ul",
+                                    {
+                                      staticClass:
+                                        "uk-switcher uk-card uk-card-default uk-box-shadow-large",
+                                      attrs: { id: "component-tab-left" }
+                                    },
+                                    [
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" All Development")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Web  Development ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Mobile App  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "  Programming language  "
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Game Development  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Software   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "  Development tools  "
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Ecommerce  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Training")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" All Business ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Finance ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Sales  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Startegy  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Sales  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v("  Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Hadware   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Operating system  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Network  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Leadership   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Productivity    ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Personal Finance  ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" All Marketing   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    " Digital Marketing    "
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    " Search Engine Optimization  "
+                                                  )
+                                                ]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("li", [
+                                        _c(
+                                          "ul",
+                                          {
+                                            staticClass:
+                                              "tm-drop-topic-list uk-padding-remove"
+                                          },
+                                          [
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Food   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Travel    ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Gaming   ")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href: "course-grid.html"
+                                                  }
+                                                },
+                                                [_vm._v(" Other  ")]
+                                              )
+                                            ])
+                                          ]
+                                        )
+                                      ])
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "books.html" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-book-open icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Books ")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-file-alt icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Blogs ")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { attrs: { "uk-dropdown": "" } }, [
+                      _c("ul", { staticClass: "uk-nav uk-dropdown-nav" }, [
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog.html" } }, [
+                            _vm._v(" Blogs ")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog.html" } }, [
+                            _vm._v(" Articles")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          { staticClass: "uk-nav-header uk-margin-small-top" },
+                          [_vm._v(" Blog Videos ")]
+                        ),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog-video.html" } }, [
+                            _vm._v(" Video Layout 1 ")
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog-video-post.html" } }, [
+                            _vm._v(" Video Layout 2 ")
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-code icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Scripts ")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "uk-drop tm-dropdown-medium",
+                        attrs: {
+                          "uk-drop":
+                            "pos: top  ;mode:click ; offset: 10;animation: uk-animation-slide-bottom-small"
+                        }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "uk-card-small uk-box-shadow-xlarge uk-card-default uk-maring-small-left  border-radius-6"
+                          },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "uk-card uk-card-default border-radius-6"
+                              },
+                              [
+                                _c("div", { staticClass: "uk-card-body" }, [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "uk-child-width-1-3 uk-grid-collapse  uk-text-small uk-text-center uk-flex-center",
+                                      attrs: { "uk-grid": "" }
+                                    },
+                                    [
+                                      _c("div", [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass: "uk-link-reset",
+                                            attrs: { href: "scripts.html" }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fab fa-html5 info-big-icon"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "uk-margin-small-top uk-margin-remove-bottom"
+                                              },
+                                              [_vm._v("  Html templates   ")]
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass: "uk-link-reset",
+                                            attrs: { href: "scripts.html" }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fab fa-php info-big-icon"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "uk-margin-small-top uk-margin-remove-bottom"
+                                              },
+                                              [_vm._v("    PHP Scripts  ")]
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass: "uk-link-reset",
+                                            attrs: { href: "scripts.html" }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fab fa-wordpress info-big-icon"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "p",
+                                              {
+                                                staticClass:
+                                                  "uk-margin-small-top uk-margin-remove-bottom"
+                                              },
+                                              [_vm._v("    Cms Plugins  ")]
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "uk-margin-small-top" },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass: "uk-link-reset",
+                                              attrs: { href: "scripts.html" }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fab fa-wordpress-simple info-big-icon"
+                                              }),
+                                              _vm._v(" "),
+                                              _c(
+                                                "p",
+                                                {
+                                                  staticClass:
+                                                    "uk-margin-small-top uk-margin-remove-bottom"
+                                                },
+                                                [_vm._v("  Cms themes  ")]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "uk-margin-small-top" },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass: "uk-link-reset",
+                                              attrs: { href: "scripts.html" }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fab fa-android info-big-icon"
+                                              }),
+                                              _vm._v(" "),
+                                              _c(
+                                                "p",
+                                                {
+                                                  staticClass:
+                                                    "uk-margin-small-top uk-margin-remove-bottom"
+                                                },
+                                                [_vm._v("   Apps Source    ")]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "uk-margin-small-top" },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass: "uk-link-reset",
+                                              attrs: { href: "scripts.html" }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fas fa-code  info-big-icon"
+                                              }),
+                                              _vm._v(" "),
+                                              _c(
+                                                "p",
+                                                {
+                                                  staticClass:
+                                                    "uk-margin-small-top uk-margin-remove-bottom"
+                                                },
+                                                [_vm._v("  All Scripts  ")]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "discussion.html" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-comment-alt icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Discussion ")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-clone icon-medium uk-margin-small-right"
+                      }),
+                      _vm._v(" Pages ")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "tm-dropdown-medium",
+                        attrs: { "uk-dropdown": "mode:click ;" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "uk-dropdown-grid uk-child-width-1-2@m",
+                            attrs: { "uk-grid": "" }
+                          },
+                          [
+                            _c("div", [
+                              _c(
+                                "ul",
+                                { staticClass: "uk-nav uk-dropdown-nav" },
+                                [
+                                  _c("li", [
+                                    _c("a", { attrs: { href: "help.html" } }, [
+                                      _vm._v(" Help ")
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "pages-term.html" } },
+                                      [_vm._v(" Terms ")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "pages-faq.html" } },
+                                      [_vm._v(" Faq ")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "pages-term.html" } },
+                                      [_vm._v(" About    ")]
+                                    )
+                                  ])
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", [
+                              _c(
+                                "ul",
+                                { staticClass: "uk-nav uk-dropdown-nav" },
+                                [
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "profile.html" } },
+                                      [_vm._v(" Profile  ")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "ui-elements.html" } },
+                                      [_vm._v(" UI Elements  ")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "ui-compuntes.html" } },
+                                      [_vm._v(" Ui Compuntes")]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", [
+                                    _c(
+                                      "a",
+                                      { attrs: { href: "ui-helpers.html" } },
+                                      [_vm._v(" Ui Helpers ")]
+                                    )
+                                  ])
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            )
+          ]
+        )
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "uk-container" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass:
+          "uk-margin uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s",
+        attrs: {
+          "uk-scrollspy":
+            "target: > div; cls:uk-animation-slide-bottom-small; delay: 200",
+          "uk-grid": ""
+        }
+      },
+      _vm._l(_vm.posts, function(post) {
+        return _c("div", { key: post.id }, [
+          _c("a", { attrs: { href: "blog-post-single.html" } }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "uk-card-default uk-card-hover uk-card-small uk-margin-medium-bottom uk-inline-clip border-radius-6"
+              },
+              [
+                _c("img", { attrs: { src: post.image_url } }),
+                _vm._v(" "),
+                _c("div", { staticClass: "uk-card-body" }, [
+                  _c(
+                    "h4",
+                    { staticClass: "uk-margin uk-margin-remove-bottom" },
+                    [_vm._v(" " + _vm._s(post.title) + "  ")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", [_vm._v(" " + _vm._s(post.excerpt) + "  ")])
+                ])
+              ]
+            )
+          ])
+        ])
+      }),
+      0
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "section-heading uk-position-relative uk-margin-medium-top none-border uk-clearfix"
+      },
+      [
+        _c("div", { staticClass: "uk-float-left" }, [
+          _c("h1", { staticClass: "uk-margin-remove-bottom" }, [
+            _vm._v(" Articles")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Adipisici elit, sed eiusmod tempor incidunt ut labore et")
+          ])
+        ])
       ]
     )
   }
@@ -37968,14 +39643,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _pages_IndexPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/IndexPage */ "./resources/js/pages/IndexPage.vue");
+/* harmony import */ var _pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/ArticlesPage */ "./resources/js/pages/ArticlesPage.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 
 
- // import ArticlesPage from './pages/ArticlesPage'
+
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('header-component', __webpack_require__(/*! ./components/HeaderComponent.vue */ "./resources/js/components/HeaderComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('navigation-component', __webpack_require__(/*! ./components/NavigationComponent.vue */ "./resources/js/components/NavigationComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footer-component', __webpack_require__(/*! ./components/FooterComponent.vue */ "./resources/js/components/FooterComponent.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
@@ -37983,13 +39661,18 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     path: '',
     name: 'courses.index',
     component: _pages_IndexPage__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }, {
+    path: '/articles',
+    name: 'articles.index',
+    component: _pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_3__["default"]
   }]
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   components: {
     'index-page': _pages_IndexPage__WEBPACK_IMPORTED_MODULE_2__["default"]
-  }
+  },
+  router: router
 });
 
 /***/ }),
@@ -38246,6 +39929,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/FooterComponent.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/FooterComponent.vue ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FooterComponent_vue_vue_type_template_id_abfbddf2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FooterComponent.vue?vue&type=template&id=abfbddf2& */ "./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2&");
+/* harmony import */ var _FooterComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FooterComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/FooterComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FooterComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FooterComponent_vue_vue_type_template_id_abfbddf2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FooterComponent_vue_vue_type_template_id_abfbddf2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/FooterComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/FooterComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/FooterComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./FooterComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FooterComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2& ***!
+  \************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterComponent_vue_vue_type_template_id_abfbddf2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./FooterComponent.vue?vue&type=template&id=abfbddf2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterComponent_vue_vue_type_template_id_abfbddf2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterComponent_vue_vue_type_template_id_abfbddf2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/HeaderComponent.vue":
 /*!*****************************************************!*\
   !*** ./resources/js/components/HeaderComponent.vue ***!
@@ -38310,6 +40062,128 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderComponent_vue_vue_type_template_id_153bfd55___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderComponent_vue_vue_type_template_id_153bfd55___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/NavigationComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/NavigationComponent.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NavigationComponent.vue?vue&type=template&id=34a84aa4& */ "./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/NavigationComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./NavigationComponent.vue?vue&type=template&id=34a84aa4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/NavigationComponent.vue?vue&type=template&id=34a84aa4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavigationComponent_vue_vue_type_template_id_34a84aa4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/ArticlesPage.vue":
+/*!*********************************************!*\
+  !*** ./resources/js/pages/ArticlesPage.vue ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ArticlesPage.vue?vue&type=template&id=7e06d675& */ "./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&");
+/* harmony import */ var _ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ArticlesPage.vue?vue&type=script&lang=js& */ "./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/ArticlesPage.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&":
+/*!**********************************************************************!*\
+  !*** ./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ArticlesPage.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675& ***!
+  \****************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ArticlesPage.vue?vue&type=template&id=7e06d675& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

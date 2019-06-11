@@ -21,6 +21,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
+Route::get('/posts', 'PostController@index');
+
+
 // Route::apiResource('/courses', 'CourseController');
 
 Route::get('/learning/progress/{lesson_id}/{user_id}/{progress}', function ($lesson_id, $user_id, $progress){
