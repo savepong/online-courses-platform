@@ -18,6 +18,7 @@
 
         <!-- font awesome -->         
         <link rel="stylesheet" href="{{asset('themes/courseplus')}}/assets/css/fontawesome.css">
+        <link rel='stylesheet' id='wpb-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Prompt:200,400' type='text/css' media='all' />
 
         <!--  javascript -->
         <script src="{{asset('themes/courseplus')}}/assets/js/simplebar.js"></script>         

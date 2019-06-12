@@ -6,7 +6,7 @@
             <div class="uk-position-relative uk-margin-medium-top none-border uk-clearfix"> 
                 <div class="uk-float-left"> 
                     <h1 class="uk-text-white">บทความ</h1>
-                    <h4 class="uk-text-white uk-margin-remove uk-text-light"> บทความล่าสุด </h4>
+                    <h4 class="uk-text-white uk-margin-remove uk-text-light"> บทความแนะนำ </h4>
                 </div>                         
                 <!-- <div class="uk-float-right"> 
                     <a href="#more" class="uk-button uk-button-default uk-button-white" uk-scroll>See more</a> 
@@ -40,22 +40,22 @@
 
     <div class="uk-container">
          <!-- end slider -->                 
-        <div class="section-heading uk-position-relative uk-margin-medium-top none-border uk-clearfix"> 
+        <div class="section-heading uk-position-relative uk-margin-small-top none-border uk-clearfix"> 
             <div class="section-heading none-border">
-                <h3 class="uk-margin-remove-bottom">Popular articles</h3>
-                <p>Adipisici elit, sed eiusmod tempor incidunt ut labere et</p> 
+                <h3 class="uk-margin-remove-bottom">บทความทั้งหมด</h3>
+                <p>บทความล่าสุด</p> 
             </div>                    
             <!-- <div class="uk-float-right"> 
                 <a href="blog-video-one.html" class="uk-button uk-button-grey">See more</a> 
             </div>                      -->
         </div>
-        <div class="uk-margin uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s" uk-scrollspy="target: > div; cls:uk-animation-slide-bottom-small; delay: 200" uk-grid> 
+        <div class="uk-margin-small uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s" uk-scrollspy="target: > div; cls:uk-animation-slide-bottom-small; delay: 200" uk-grid> 
             <div v-for="post in posts" :key="post.id"> 
                 <router-link :to="{ name: 'post.show', params: { id: post.id, slug: post.slug } }">
                     <div class="uk-card-default uk-card-hover uk-card-small uk-margin-medium-bottom uk-inline-clip border-radius-6"> 
                         <img :src="post.image_url"> 
                         <div class="uk-card-body"> 
-                            <h4 class="uk-margin uk-margin-remove-bottom"> {{post.title}}  </h4> 
+                            <h5 class="uk-margin uk-margin-remove-bottom"> {{post.title}}  </h5> 
                             <!-- <p> {{post.excerpt}}  </p> -->
                         </div>                                 
                     </div>

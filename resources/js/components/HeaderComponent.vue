@@ -310,3 +310,9 @@ export default {
     }
 }
 </script>
+
+<style>
+body, a {
+    font-family: Prompt !important
+}
+</style>
