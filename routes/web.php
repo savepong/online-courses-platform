@@ -112,6 +112,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin/users/{tab?}', 'AdminController@users')->name('admin.users');
     Route::get('/admin/coupons/{tab?}', 'AdminController@coupons')->name('admin.coupons');
     Route::get('/admin/changelog', 'AdminController@changelog')->name('admin.changelog');
+    Route::get('/admin/user-login/{id}', 'AdminController@forceUserLogin')->name('admin.user.login');
 });
 
 /** Account */
