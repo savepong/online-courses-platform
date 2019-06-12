@@ -23,6 +23,8 @@ class User extends Authenticatable
         'name', 'username', 'avatar' , 'email', 'phone_number', 'facebook', 'line_id', 'password', 'bio', 'billing_to', 'billing_address', 'billing_country',
     ];
 
+    protected $appends = ['avatar_url'];
+
     /**
      * The attributes that should be hidden for arrays.
      *
