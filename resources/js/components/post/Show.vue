@@ -1,5 +1,5 @@
 <template>
-<div>
+<article class="uk-article">
     <div class="uk-container-small uk-margin-auto uk-margin-medium-top uk-padding-small">
         <h2 class="uk-heading-bullet">{{post.title}}</h2>
         <div class="">
@@ -16,7 +16,7 @@
         <p class="uk-text-lead">{{post.excerpt}}</p>
         <div v-html="post.body"></div>
     </div>
-</div>
+</article>
 </template>
 
 <script>

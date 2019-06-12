@@ -20,18 +20,18 @@ Vue.use(VueRouter)
 const router = new VueRouter({
     mode: 'history',
     routes: [
+        // {
+        //     path: '',
+        //     name: 'courses.index',
+        //     component: IndexPage,
+        // },
         {
             path: '',
-            name: 'courses.index',
-            component: IndexPage,
-        },
-        {
-            path: '/articles',
             name: 'articles.index',
             component: ArticlesPage,
         },
         {
-            path: '/post/:slug',
+            path: '/article/:slug',
             name: 'post.show',
             component: PostShow,
         },

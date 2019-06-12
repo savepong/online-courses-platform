@@ -2368,33 +2368,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2414,12 +2387,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -2836,6 +2803,46 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   // props: ['posts'],
   components: {},
@@ -2948,6 +2955,25 @@ __webpack_require__.r(__webpack_exports__);
     return {};
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.hero-feature-bg[data-v-7e06d675] {\n    width: 100%;\n    height: 360px;\n    position: absolute;\n    background: linear-gradient(220deg, #f69120 -10%, #ed2e24 70%);\n}\n", ""]);
+
+// exports
+
 
 /***/ }),
 
@@ -20561,6 +20587,36 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/IndexPage.vue?vue&type=style&index=0&id=4bff76c8&scoped=true&lang=css&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/IndexPage.vue?vue&type=style&index=0&id=4bff76c8&scoped=true&lang=css& ***!
@@ -22302,16 +22358,6 @@ var render = function() {
                   _c("i", { staticClass: "fas fa-graduation-cap" }),
                   _vm._v("  " + _vm._s(_vm.appName))
                 ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "uk-width-xlarge tm-footer-description" },
-                [
-                  _vm._v(
-                    "A unique and beautiful collection of UI elements that are all flexible and modular.   building the website of your dreams."
-                  )
-                ]
               )
             ]
           ),
@@ -22360,19 +22406,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "uk-width-expand@m uk-width-1-2@s" }, [
       _c("ul", { staticClass: "uk-list  tm-footer-list" }, [
-        _c("li", [
-          _c("a", { attrs: { href: "#" } }, [_vm._v(" Browse Our Library ")])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#" } }, [_vm._v(" Tutorials/Articles ")])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#" } }, [_vm._v(" Scripts and codes")])
-        ]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" Ebooks")])])
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("หน้าแรก")])])
       ])
     ])
   },
@@ -22382,13 +22416,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "uk-width-expand@m uk-width-1-2@s" }, [
       _c("ul", { staticClass: "uk-list tm-footer-list" }, [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" About us ")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" Contact Us ")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v(" Privacy   ")])]),
-        _vm._v(" "),
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("   Policy ")])])
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("คอร์สเรียน")])])
       ])
     ])
   },
@@ -22398,19 +22426,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "uk-width-expand@m uk-width-1-2@s" }, [
       _c("ul", { staticClass: "uk-list  tm-footer-list" }, [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Web Design ")])]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#" } }, [_vm._v("Web Development  ")])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#" } }, [_vm._v(" iOS Development ")])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#" } }, [_vm._v("  PHP Development ")])
-        ])
+        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("บทเรียน")])])
       ])
     ])
   },
@@ -22466,7 +22482,7 @@ var staticRenderFns = [
         {
           staticClass: "uk-icon-button uk-link-reset",
           attrs: {
-            href: "#",
+            href: "https://web.facebook.com/ideagital.tech/",
             "uk-tooltip": "title: Our Facebook; pos: top-center"
           }
         },
@@ -22623,7 +22639,7 @@ var render = function() {
                           "li",
                           [
                             _c("router-link", { attrs: { to: "/articles" } }, [
-                              _vm._v("Articles")
+                              _vm._v("บทความ")
                             ])
                           ],
                           1
@@ -22633,8 +22649,6 @@ var render = function() {
                   ],
                   1
                 ),
-                _vm._v(" "),
-                _vm._m(3),
                 _vm._v(" "),
                 _c(
                   "div",
@@ -22701,7 +22715,7 @@ var render = function() {
                           ]
                         ),
                         _vm._v(" "),
-                        _vm._m(4)
+                        _vm._m(3)
                       ]
                     )
                   ]
@@ -22749,740 +22763,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", [
-      _c("a", { attrs: { href: "/" } }, [_vm._v("Courses")]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "uk-drop angle-top-left",
-          attrs: {
-            "uk-drop":
-              "pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small"
-          }
-        },
-        [
-          _c("div", { staticClass: "tm-drop-topic" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "uk-grid-collapse uk-grid-match uk-grid uk-grid-stack",
-                attrs: { "uk-grid": "" }
-              },
-              [
-                _c("div", { staticClass: "uk-width-1-2" }, [
-                  _c(
-                    "ul",
-                    {
-                      staticClass:
-                        "tm-drop-topic-list uk-card uk-card-default uk-margin-remove uk-box-shadow-large uk-tab",
-                      attrs: {
-                        "uk-tab":
-                          "connect: #component-tab-left;animation: uk-animation-slide-left-small, uk-animation-slide-right-small"
-                      }
-                    },
-                    [
-                      _c(
-                        "li",
-                        {
-                          staticClass: "uk-active",
-                          attrs: { "aria-expanded": "true" }
-                        },
-                        [
-                          _c("a", { attrs: { href: "#" } }, [
-                            _c("i", {
-                              staticClass:
-                                "far fa-credit-card  uk-margin-small-right"
-                            }),
-                            _vm._v(" Web Development "),
-                            _c("i", {
-                              staticClass:
-                                "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                            })
-                          ])
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass:
-                              "fas fa-briefcase   uk-margin-small-right"
-                          }),
-                          _vm._v("   Business  "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass:
-                              "fas fa-pencil-ruler  uk-margin-small-right"
-                          }),
-                          _vm._v("   Office Productivity  "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass: "fas fa-brain  uk-margin-small-right"
-                          }),
-                          _vm._v("    Personal Development "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass: "fas fa-bullhorn uk-margin-small-right"
-                          }),
-                          _vm._v("   Marketing  "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass:
-                              "fas fa-life-ring  uk-margin-small-right"
-                          }),
-                          _vm._v("   Life Style "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass: "fas fa-box uk-margin-small-right"
-                          }),
-                          _vm._v("    IT & Software "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right  uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass: "fas fa-camera uk-margin-small-right"
-                          }),
-                          _vm._v("   Photography "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass:
-                              "fas fa-briefcase-medical uk-margin-small-right"
-                          }),
-                          _vm._v("   Health & Fitness "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass:
-                              "fas fa-shopping-bag  uk-margin-small-right"
-                          }),
-                          _vm._v("   Ecommerce "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { attrs: { "aria-expanded": "false" } }, [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _c("i", {
-                            staticClass:
-                              "fas fa-utensils  uk-margin-small-right"
-                          }),
-                          _vm._v("   Food & cooking "),
-                          _c("i", {
-                            staticClass:
-                              "fas fa-chevron-right uk-position-center-right uk-margin-right"
-                          })
-                        ])
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "uk-width-1-2 uk-width-1-2" }, [
-                  _c(
-                    "ul",
-                    {
-                      staticClass:
-                        "uk-switcher uk-card uk-card-default uk-box-shadow-large",
-                      attrs: { id: "component-tab-left" }
-                    },
-                    [
-                      _c("li", { staticClass: "uk-active" }, [
-                        _c(
-                          "ul",
-                          {
-                            staticClass: "tm-drop-topic-list uk-padding-remove"
-                          },
-                          [
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" All Development")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Web  Development ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Mobile App  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Programming language  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Game Development  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Software   ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Development tools  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Ecommerce  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Training")
-                              ])
-                            ])
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c(
-                          "ul",
-                          {
-                            staticClass: "tm-drop-topic-list uk-padding-remove"
-                          },
-                          [
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" All Business ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Finance ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Sales  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Startegy  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Sales  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v("  Other  ")
-                              ])
-                            ])
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c(
-                          "ul",
-                          {
-                            staticClass: "tm-drop-topic-list uk-padding-remove"
-                          },
-                          [
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Hadware   ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Operating system  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Network  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Other  ")
-                              ])
-                            ])
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c(
-                          "ul",
-                          {
-                            staticClass: "tm-drop-topic-list uk-padding-remove"
-                          },
-                          [
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Leadership   ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Productivity    ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Personal Finance  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Other  ")
-                              ])
-                            ])
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c(
-                          "ul",
-                          {
-                            staticClass: "tm-drop-topic-list uk-padding-remove"
-                          },
-                          [
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" All Marketing   ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Digital Marketing    ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Search Engine Optimization  ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Other  ")
-                              ])
-                            ])
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c(
-                          "ul",
-                          {
-                            staticClass: "tm-drop-topic-list uk-padding-remove"
-                          },
-                          [
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Food   ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Travel    ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Gaming   ")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "#" } }, [
-                                _vm._v(" Other  ")
-                              ])
-                            ])
-                          ]
-                        )
-                      ])
-                    ]
-                  )
-                ])
-              ]
-            )
-          ])
-        ]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "mobile-sidebar uk-offcanvas",
-        attrs: { id: "mobile-sidebar", "uk-offcanvas": "overlay:true" }
-      },
-      [
-        _c(
-          "div",
-          {
-            staticClass: "uk-offcanvas-bar uk-preserve-color uk-padding-remove"
-          },
-          [
-            _c(
-              "ul",
-              { staticClass: "uk-accordion", attrs: { "uk-accordion": "" } },
-              [
-                _c("li", { staticClass: "uk-open" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass:
-                        "uk-accordion-title uk-text-black uk-padding-small",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("i", {
-                        staticClass: "fas fa-play-circle uk-margin-small-right"
-                      }),
-                      _vm._v(" Courses ")
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "uk-accordion-content uk-margin-remove-top",
-                      attrs: { "aria-hidden": "false" }
-                    },
-                    [
-                      _c("ul", { staticClass: "uk-list tm-drop-topic-list" }, [
-                        _c("li", [
-                          _c("a", { attrs: { href: "course-grid.html" } }, [
-                            _vm._v(" All Development")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "course-grid.html" } }, [
-                            _vm._v(" Web  Development ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "course-grid.html" } }, [
-                            _vm._v("  Mobile App  ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "course-grid.html" } }, [
-                            _vm._v("  Programming language  ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "course-grid.html" } }, [
-                            _vm._v("  Software   ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "course-grid.html" } }, [
-                            _vm._v("  Ecommerce  ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "course-grid.html" } }, [
-                            _vm._v(" Training")
-                          ])
-                        ])
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "uk-margin-remove-top" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass:
-                        "uk-accordion-title uk-text-black uk-padding-small",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("i", {
-                        staticClass: "fas fa-code uk-margin-small-right"
-                      }),
-                      _vm._v(" Scripts  ")
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "uk-accordion-content uk-margin-remove-top",
-                      attrs: { hidden: "", "aria-hidden": "true" }
-                    },
-                    [
-                      _c("ul", { staticClass: "uk-list tm-drop-topic-list" }, [
-                        _c("li", [
-                          _c("a", { attrs: { href: "scripts.html" } }, [
-                            _vm._v(" Php scrips ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "scripts.html" } }, [
-                            _vm._v(" HTML templates ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "scripts.html" } }, [
-                            _vm._v("  Wordpress plugins  ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "scripts.html" } }, [
-                            _vm._v("  Wordpress themes  ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "scripts.html" } }, [
-                            _vm._v("  App source codes  ")
-                          ])
-                        ])
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "uk-margin-remove-top" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass:
-                        "uk-accordion-title uk-text-black uk-padding-small",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("i", {
-                        staticClass: "fas fa-clone uk-margin-small-right"
-                      }),
-                      _vm._v(" Pages ")
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "uk-accordion-content uk-margin-remove-top",
-                      attrs: { hidden: "", "aria-hidden": "true" }
-                    },
-                    [
-                      _c("ul", { staticClass: "uk-list tm-drop-topic-list" }, [
-                        _c("li", [
-                          _c("a", { attrs: { href: "help.html" } }, [
-                            _vm._v(" Help ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "pages-term.html" } }, [
-                            _vm._v(" Term ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "pages-faq.html" } }, [
-                            _vm._v(" Faq ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "ui-compuntes.html" } }, [
-                            _vm._v(" Ui Compuntes ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "ui-elements.html" } }, [
-                            _vm._v(" Ui Elements ")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c("a", { attrs: { href: "ui-helpers.html" } }, [
-                            _vm._v(" Ui Helpers ")
-                          ])
-                        ])
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  { staticClass: "uk-margin-remove-top uk-padding-small" },
-                  [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "uk-text-black",
-                        attrs: { href: "books.html" }
-                      },
-                      [
-                        _c("i", {
-                          staticClass: "fas fa-book-open uk-margin-small-right"
-                        }),
-                        _vm._v(" Books ")
-                      ]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  { staticClass: "uk-margin-remove-top uk-padding-small" },
-                  [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "uk-text-black",
-                        attrs: { href: "blog.html" }
-                      },
-                      [
-                        _c("i", {
-                          staticClass: "fas fa-file-alt uk-margin-small-right"
-                        }),
-                        _vm._v(" Blog ")
-                      ]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  { staticClass: "uk-margin-remove-top uk-padding-small" },
-                  [
-                    _c(
-                      "a",
-                      { staticClass: "uk-text-black", attrs: { href: "#" } },
-                      [
-                        _c("i", {
-                          staticClass:
-                            "fas fa-comment-alt uk-margin-small-right"
-                        }),
-                        _vm._v(" Discussion ")
-                      ]
-                    )
-                  ]
-                )
-              ]
-            )
-          ]
-        )
-      ]
-    )
+    return _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("คอร์สเรียน")])])
   },
   function() {
     var _vm = this
@@ -24631,7 +23912,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
+  return _c("article", { staticClass: "uk-article" }, [
     _c(
       "div",
       {
@@ -24684,10 +23965,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675& ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24699,67 +23980,192 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "uk-container" }, [
-    _vm._m(0),
+  return _c("div", [
+    _c("div", { staticClass: "hero-feature-bg uk-visible@s" }),
     _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass:
-          "uk-margin uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s",
-        attrs: {
-          "uk-scrollspy":
-            "target: > div; cls:uk-animation-slide-bottom-small; delay: 200",
-          "uk-grid": ""
-        }
-      },
-      _vm._l(_vm.posts, function(post) {
-        return _c(
-          "div",
-          { key: post.id },
-          [
-            _c(
-              "router-link",
-              {
-                attrs: {
-                  to: {
-                    name: "post.show",
-                    params: { id: post.id, slug: post.slug }
-                  }
-                }
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "uk-card-default uk-card-hover uk-card-small uk-margin-medium-bottom uk-inline-clip border-radius-6"
-                  },
-                  [
-                    _c("img", { attrs: { src: post.image_url } }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "uk-card-body" }, [
+    _c("div", { staticClass: "uk-container uk-visible@s" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "uk-position-relative uk-visible-toggle  uk-container uk-padding-medium",
+          attrs: { "uk-slider": "" }
+        },
+        [
+          _c(
+            "ul",
+            {
+              staticClass:
+                "uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid"
+            },
+            _vm._l(_vm.posts, function(post, index) {
+              return _c(
+                "li",
+                { key: index, staticClass: "uk-active" },
+                [
+                  _c(
+                    "router-link",
+                    {
+                      attrs: {
+                        to: {
+                          name: "post.show",
+                          params: { id: post.id, slug: post.slug }
+                        }
+                      }
+                    },
+                    [
                       _c(
-                        "h4",
-                        { staticClass: "uk-margin uk-margin-remove-bottom" },
-                        [_vm._v(" " + _vm._s(post.title) + "  ")]
-                      ),
+                        "div",
+                        {
+                          staticClass:
+                            "uk-card-default uk-card-hover  uk-card-small feature-card uk-inline-clip"
+                        },
+                        [
+                          _c("img", {
+                            staticClass: "course-img",
+                            attrs: { src: post.image_url }
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "uk-card-body" }, [
+                            _c("h4", [_vm._v(_vm._s(post.title))])
+                          ])
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            }),
+            0
+          ),
+          _vm._v(" "),
+          _c("a", {
+            staticClass:
+              "uk-position-center-left uk-position-small uk-hidden-hover uk-hidden-hover uk-icon-button",
+            attrs: {
+              href: "#",
+              "uk-slidenav-previous": "",
+              "uk-slider-item": "previous"
+            }
+          }),
+          _vm._v(" "),
+          _c("a", {
+            staticClass:
+              "uk-position-center-right uk-position-small uk-hidden-hover uk-hidden-hover uk-icon-button",
+            attrs: {
+              href: "#",
+              "uk-slidenav-next": "",
+              "uk-slider-item": "next"
+            }
+          }),
+          _vm._v(" "),
+          _vm._m(1)
+        ]
+      )
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "uk-container" }, [
+      _vm._m(2),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "uk-margin uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s",
+          attrs: {
+            "uk-scrollspy":
+              "target: > div; cls:uk-animation-slide-bottom-small; delay: 200",
+            "uk-grid": ""
+          }
+        },
+        _vm._l(_vm.posts, function(post) {
+          return _c(
+            "div",
+            { key: post.id },
+            [
+              _c(
+                "router-link",
+                {
+                  attrs: {
+                    to: {
+                      name: "post.show",
+                      params: { id: post.id, slug: post.slug }
+                    }
+                  }
+                },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "uk-card-default uk-card-hover uk-card-small uk-margin-medium-bottom uk-inline-clip border-radius-6"
+                    },
+                    [
+                      _c("img", { attrs: { src: post.image_url } }),
                       _vm._v(" "),
-                      _c("p", [_vm._v(" " + _vm._s(post.excerpt) + "  ")])
-                    ])
-                  ]
-                )
-              ]
-            )
-          ],
-          1
-        )
-      }),
-      0
-    )
+                      _c("div", { staticClass: "uk-card-body" }, [
+                        _c(
+                          "h4",
+                          { staticClass: "uk-margin uk-margin-remove-bottom" },
+                          [_vm._v(" " + _vm._s(post.title) + "  ")]
+                        )
+                      ])
+                    ]
+                  )
+                ]
+              )
+            ],
+            1
+          )
+        }),
+        0
+      )
+    ])
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "uk-container" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "uk-position-relative uk-margin-medium-top none-border uk-clearfix"
+        },
+        [
+          _c("div", { staticClass: "uk-float-left" }, [
+            _c("h1", { staticClass: "uk-text-white" }, [_vm._v("บทความ")]),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "uk-text-white uk-margin-remove uk-text-light" },
+              [_vm._v(" บทความล่าสุด ")]
+            )
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "ul",
+      { staticClass: "uk-slider-nav uk-dotnav uk-flex-center uk-margin" },
+      [
+        _c("li", { attrs: { "uk-slider-item": "0" } }, [
+          _c("a", { attrs: { href: "#" } })
+        ])
+      ]
+    )
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -24771,13 +24177,13 @@ var staticRenderFns = [
           "section-heading uk-position-relative uk-margin-medium-top none-border uk-clearfix"
       },
       [
-        _c("div", { staticClass: "uk-float-left" }, [
-          _c("h1", { staticClass: "uk-margin-remove-bottom" }, [
-            _vm._v(" Articles")
+        _c("div", { staticClass: "section-heading none-border" }, [
+          _c("h3", { staticClass: "uk-margin-remove-bottom" }, [
+            _vm._v("Popular articles")
           ]),
           _vm._v(" "),
           _c("p", [
-            _vm._v("Adipisici elit, sed eiusmod tempor incidunt ut labore et")
+            _vm._v("Adipisici elit, sed eiusmod tempor incidunt ut labere et")
           ])
         ])
       ]
@@ -39802,16 +39208,17 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footer-component', __webpa
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
-  routes: [{
+  routes: [// {
+  //     path: '',
+  //     name: 'courses.index',
+  //     component: IndexPage,
+  // },
+  {
     path: '',
-    name: 'courses.index',
-    component: _pages_IndexPage__WEBPACK_IMPORTED_MODULE_2__["default"]
-  }, {
-    path: '/articles',
     name: 'articles.index',
     component: _pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
-    path: '/post/:slug',
+    path: '/article/:slug',
     name: 'post.show',
     component: _components_post_Show__WEBPACK_IMPORTED_MODULE_4__["default"]
   }]
@@ -40347,9 +39754,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ArticlesPage.vue?vue&type=template&id=7e06d675& */ "./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&");
+/* harmony import */ var _ArticlesPage_vue_vue_type_template_id_7e06d675_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ArticlesPage.vue?vue&type=template&id=7e06d675&scoped=true& */ "./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&scoped=true&");
 /* harmony import */ var _ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ArticlesPage.vue?vue&type=script&lang=js& */ "./resources/js/pages/ArticlesPage.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _ArticlesPage_vue_vue_type_style_index_0_id_7e06d675_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css& */ "./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -40357,13 +39766,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _ArticlesPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ArticlesPage_vue_vue_type_template_id_7e06d675_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ArticlesPage_vue_vue_type_template_id_7e06d675_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "7e06d675",
   null
   
 )
@@ -40389,19 +39798,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&":
-/*!****************************************************************************!*\
-  !*** ./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675& ***!
-  \****************************************************************************/
+/***/ "./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css& ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_style_index_0_id_7e06d675_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=style&index=0&id=7e06d675&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_style_index_0_id_7e06d675_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_style_index_0_id_7e06d675_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_style_index_0_id_7e06d675_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_style_index_0_id_7e06d675_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_style_index_0_id_7e06d675_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&scoped=true&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&scoped=true& ***!
+  \****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ArticlesPage.vue?vue&type=template&id=7e06d675& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ArticlesPage.vue?vue&type=template&id=7e06d675&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/ArticlesPage.vue?vue&type=template&id=7e06d675&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArticlesPage_vue_vue_type_template_id_7e06d675_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

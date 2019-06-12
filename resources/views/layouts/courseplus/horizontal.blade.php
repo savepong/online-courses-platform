@@ -37,7 +37,7 @@
             <header-component></header-component>
 
             <!-- Navigation  -->
-            <navigation-component></navigation-component>
+            {{-- <navigation-component></navigation-component> --}}
 
             <main>
                 <router-view></router-view>

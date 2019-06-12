@@ -17,9 +17,9 @@
 
                         <ul class="uk-navbar-nav uk-margin-small-left">
                             <li >
-                                <a href="/">Courses</a>
+                                <a href="#">คอร์สเรียน</a>
                                 <!-- drop topic list -->
-                                <div uk-drop="pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small" class="uk-drop angle-top-left"> 
+                                <!-- <div uk-drop="pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small" class="uk-drop angle-top-left"> 
                                     <div class="tm-drop-topic">
                                         <div class="uk-grid-collapse uk-grid-match uk-grid uk-grid-stack" uk-grid=""> 
                                             <div class="uk-width-1-2"> 
@@ -62,7 +62,6 @@
                                             <div class="uk-width-1-2 uk-width-1-2"> 
                                                 <ul id="component-tab-left" class="uk-switcher uk-card uk-card-default uk-box-shadow-large">
                                                     <li class="uk-active">
-                                                        <!-- Web Development list -->                                                             
                                                         <ul class="tm-drop-topic-list uk-padding-remove">
                                                             <li>
                                                                 <a href="#"> All Development</a>
@@ -94,7 +93,6 @@
                                                         </ul>                                                             
                                                     </li>
                                                     <li>
-                                                        <!-- Business courses list -->                                                             
                                                         <ul class="tm-drop-topic-list uk-padding-remove">
                                                             <li>
                                                                 <a href="#"> All Business </a>
@@ -117,7 +115,6 @@
                                                         </ul>                                                             
                                                     </li>
                                                     <li>
-                                                        <!-- IT & Software  courses list -->                                                             
                                                         <ul class="tm-drop-topic-list uk-padding-remove"> 
                                                             <li>
                                                                 <a href="#"> Hadware   </a>
@@ -134,7 +131,6 @@
                                                         </ul>                                                             
                                                     </li>
                                                     <li>
-                                                        <!--Personal development  courses list -->                                                             
                                                         <ul class="tm-drop-topic-list uk-padding-remove"> 
                                                             <li>
                                                                 <a href="#"> Leadership   </a>
@@ -151,7 +147,6 @@
                                                         </ul>                                                             
                                                     </li>
                                                     <li>
-                                                        <!-- Marketing  courses list -->                                                             
                                                         <ul class="tm-drop-topic-list uk-padding-remove"> 
                                                             <li>
                                                                 <a href="#"> All Marketing   </a>
@@ -168,7 +163,6 @@
                                                         </ul>                                                             
                                                     </li>
                                                     <li>
-                                                        <!-- Life style  courses list -->                                                             
                                                         <ul class="tm-drop-topic-list uk-padding-remove"> 
                                                             <li>
                                                                 <a href="#"> Food   </a>
@@ -188,17 +182,17 @@
                                             </div>                                                 
                                         </div>                                             
                                     </div>                                         
-                                </div>
+                                </div> -->
                             </li>      
                             <li>
-                                <router-link to="/articles">Articles</router-link>
+                                <router-link to="/articles">บทความ</router-link>
                             </li>                              
                         </ul>
                     </div>                         
                     <!-- <user-courses-component></user-courses-component> -->
                     
                     <!-- Navigation for mobile -->
-                    <div id="mobile-sidebar" class="mobile-sidebar uk-offcanvas" uk-offcanvas="overlay:true">
+                    <!-- <div id="mobile-sidebar" class="mobile-sidebar uk-offcanvas" uk-offcanvas="overlay:true">
                         <div class="uk-offcanvas-bar uk-preserve-color uk-padding-remove"> 
                             <ul uk-accordion="" class="uk-accordion"> 
                                 <li class="uk-open"> 
@@ -288,7 +282,7 @@
                                                                     
                             </ul>                                 
                         </div>
-                    </div>                         
+                    </div>                          -->
                     <!-- search box -->                         
                     <div id="modal-full" class="uk-modal-full uk-modal uk-animation-scale-down" uk-modal=""> 
                         <div class="uk-modal-dialog uk-flex uk-flex-center" uk-height-viewport="" style="box-sizing: border-box; min-height: calc(100vh); height: 547px;"> 
