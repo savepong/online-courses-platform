@@ -12,7 +12,7 @@
         </div>
         <div class="uk-margin uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s" uk-scrollspy="target: > div; cls:uk-animation-slide-bottom-small; delay: 200" uk-grid> 
             <div v-for="post in posts" :key="post.id"> 
-                <a href="blog-post-single.html">
+                <router-link :to="{ name: 'post.show', params: { id: post.id, slug: post.slug } }">
                     <div class="uk-card-default uk-card-hover uk-card-small uk-margin-medium-bottom uk-inline-clip border-radius-6"> 
                         <img :src="post.image_url"> 
                         <div class="uk-card-body"> 
@@ -20,7 +20,7 @@
                             <p> {{post.excerpt}}  </p>
                         </div>                                 
                     </div>
-                </a>                         
+                </router-link>                      
             </div> 
         </div>
     </div>
@@ -41,7 +41,7 @@ export default {
     },
 
     created () {
-        this.fetch(`/api/posts`);
+        this.fetch(`/api/post`);
     },
 
     methods: {

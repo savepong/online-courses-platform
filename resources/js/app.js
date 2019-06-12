@@ -7,6 +7,7 @@ import VueRouter from 'vue-router'
 
 import IndexPage from './pages/IndexPage'
 import ArticlesPage from './pages/ArticlesPage'
+import PostShow from './components/post/Show'
 
 
 Vue.component('header-component', require('./components/HeaderComponent.vue').default);
@@ -28,6 +29,11 @@ const router = new VueRouter({
             path: '/articles',
             name: 'articles.index',
             component: ArticlesPage,
+        },
+        {
+            path: '/post/:slug',
+            name: 'post.show',
+            component: PostShow,
         },
     ],
 });
