@@ -31,6 +31,11 @@ const router = new VueRouter({
             component: ArticlesPage,
         },
         {
+            path: '/articles',
+            name: 'post.index',
+            component: ArticlesPage,
+        },
+        {
             path: '/article/:slug',
             name: 'post.show',
             component: PostShow,
