@@ -22687,9 +22687,11 @@ var render = function() {
                         _c(
                           "li",
                           [
-                            _c("router-link", { attrs: { to: "/articles" } }, [
-                              _vm._v("บทความ")
-                            ])
+                            _c(
+                              "router-link",
+                              { attrs: { to: { name: "post.index" } } },
+                              [_vm._v("บทความ")]
+                            )
                           ],
                           1
                         )
@@ -39263,6 +39265,10 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   {
     path: '',
     name: 'articles.index',
+    component: _pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_3__["default"]
+  }, {
+    path: '/articles',
+    name: 'post.index',
     component: _pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
     path: '/article/:slug',
