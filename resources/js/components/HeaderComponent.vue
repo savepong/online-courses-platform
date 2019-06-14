@@ -185,7 +185,7 @@
                                 </div> -->
                             </li>      
                             <li>
-                                <router-link to="/articles">บทความ</router-link>
+                                <router-link :to="{ name: 'post.index' }">บทความ</router-link>
                             </li>                              
                         </ul>
                     </div>                         
