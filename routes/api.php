@@ -22,6 +22,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::resource('post', 'PostController');
+Route::resource('course', 'CourseController');
+Route::get('categories', 'CategoryController@index');
 
 // Route::apiResource('/courses', 'CourseController');
 

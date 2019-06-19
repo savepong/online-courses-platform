@@ -21,14 +21,14 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         // {
-        //     path: '',
+        //     path: 'homes',
         //     name: 'courses.index',
         //     component: IndexPage,
         // },
         {
             path: '',
-            name: 'articles.index',
-            component: ArticlesPage,
+            name: 'index',
+            component: IndexPage,
         },
         {
             path: '/articles',
@@ -36,7 +36,7 @@ const router = new VueRouter({
             component: ArticlesPage,
         },
         {
-            path: '/article/:slug',
+            path: '/post/:slug',
             name: 'post.show',
             component: PostShow,
         },
@@ -47,7 +47,7 @@ const router = new VueRouter({
 const app = new Vue({
     el: '#app',
     components: {
-        'index-page': IndexPage 
+        'index-page': IndexPage
     },
     router,
 });
