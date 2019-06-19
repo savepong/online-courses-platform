@@ -135,8 +135,15 @@ class CourseController extends Controller
      * @param  \App\Course  $course
      * @return \Illuminate\Http\Response
      */
-    public function show(Course $course)
+    public function show(Request $request, Course $course)
     {
+        if($request->expectsJson()) {
+            return response()->json([
+                'message' => "Success",
+                'data' => $course->load('author')
+            ]);
+        }
+
         return view('course.view', compact('course'));
     }
 

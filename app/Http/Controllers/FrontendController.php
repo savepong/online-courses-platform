@@ -11,12 +11,14 @@ class FrontendController extends Controller
 {
     public function index()
     {
-        $courses= Course::with('category')->latestFirst()
-        ->published()->get();
+        $course = Course::with('category')->latestFirst()
+        ->published()->first();
+        // $courses= Course::with('category')->latestFirst()
+        // ->published()->get();
         $posts = Post::all();
         $categories = Category::all();
 
-        return view('frontend.index', compact('courses', 'posts', 'categories'));
+        return view('frontend.index', compact('course', 'posts', 'categories'));
     }
 
     public function articles()
