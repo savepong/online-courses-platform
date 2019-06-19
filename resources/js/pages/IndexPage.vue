@@ -135,7 +135,6 @@
 
       <a name="articles"></a>
       <div class="uk-container uk-margin-large-top">
-        <!-- end slider -->
         <h3 class="uk-text-light">บทความทั้งหมด</h3>
         <div
           class="uk-margin-small uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s"
@@ -150,7 +149,6 @@
                 <img :src="post.image_url">
                 <div class="uk-card-body">
                   <h5 class="uk-margin uk-margin-remove-bottom">{{post.title}}</h5>
-                  <!-- <p> {{post.excerpt}}  </p> -->
                 </div>
               </div>
             </router-link>
