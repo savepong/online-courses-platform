@@ -5,11 +5,12 @@
       <ul class="uk-slider-items uk-child-width-1-3@m uk-child-width-1-2@s" uk-grid>
         <li v-for="post in articles" :key="post.id" class="uk-active">
           <div class="uk-card uk-card-default uk-card-small uk-card-hover border-radius-6">
-            <a href="Blog-post-single.html" class="uk-position-cover"></a>
-            <img :src="post.image_url">
-            <div class="uk-card-body">
-              <h5 class="uk-margin uk-margin-remove-bottom">{{post.title}}</h5>
-            </div>
+            <router-link :to="{ name: 'post.show', params: { id: post.id, slug: post.slug } }">
+              <img :src="post.image_url">
+              <div class="uk-card-body">
+                <h5 class="uk-margin uk-margin-remove-bottom">{{post.title}}</h5>
+              </div>
+            </router-link>
           </div>
         </li>
       </ul>
