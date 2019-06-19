@@ -1896,6 +1896,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["articles"],
   data: function data() {
@@ -2364,6 +2365,59 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2383,9 +2437,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
 //
 //
 //
@@ -2761,14 +2812,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       postId: this.$route.params.id,
       post: {},
       author: {
-        name: '',
-        avatar_url: ''
+        name: "",
+        avatar_url: ""
       }
     };
   },
@@ -2807,6 +2864,14 @@ function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.
 
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
 
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3091,8 +3156,6 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 //
 //
 //
-//
-//
 
 
 
@@ -3163,7 +3226,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody,\na {\n  font-family: Prompt !important;\n}\n", ""]);
+exports.push([module.i, "\nbody,\na {\n  font-family: Prompt !important;\n}\n.uk-navbar {\n  background-color: transparent;\n  height: 0px;\n}\n", ""]);
 
 // exports
 
@@ -3182,7 +3245,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.hero-feature-bg[data-v-7e06d675] {\n    width: 100%;\n    height: 360px;\n    position: absolute;\n    background: linear-gradient(220deg, #f69120 -10%, #ed2e24 70%);\n}\n", ""]);
+exports.push([module.i, "\n.uk-navbar[data-v-7e06d675] {\n  background-color: transparent;\n  height: 0px;\n}\n/* .hero-feature-bg {\n  width: 100%;\n  height: 360px;\n  position: absolute;\n  background: linear-gradient(220deg, #f69120 -10%, #ed2e24 70%);\n} */\n", ""]);
 
 // exports
 
@@ -21514,21 +21577,30 @@ var render = function() {
                     "uk-card uk-card-default uk-card-small uk-card-hover border-radius-6"
                 },
                 [
-                  _c("a", {
-                    staticClass: "uk-position-cover",
-                    attrs: { href: "Blog-post-single.html" }
-                  }),
-                  _vm._v(" "),
-                  _c("img", { attrs: { src: post.image_url } }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "uk-card-body" }, [
-                    _c(
-                      "h5",
-                      { staticClass: "uk-margin uk-margin-remove-bottom" },
-                      [_vm._v(_vm._s(post.title))]
-                    )
-                  ])
-                ]
+                  _c(
+                    "router-link",
+                    {
+                      attrs: {
+                        to: {
+                          name: "post.show",
+                          params: { id: post.id, slug: post.slug }
+                        }
+                      }
+                    },
+                    [
+                      _c("img", { attrs: { src: post.image_url } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "uk-card-body" }, [
+                        _c(
+                          "h5",
+                          { staticClass: "uk-margin uk-margin-remove-bottom" },
+                          [_vm._v(_vm._s(post.title))]
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
               )
             ])
           }),
@@ -22559,7 +22631,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fas fa-graduation-cap" }),
-                  _vm._v("  " + _vm._s(_vm.appName))
+                  _vm._v("\n          " + _vm._s(_vm.appName) + "\n        ")
                 ]
               )
             ]
@@ -22586,11 +22658,11 @@ var render = function() {
               [
                 _c("p", { staticClass: "uk-text-small" }, [
                   _c("i", { staticClass: "fas fa-copyright" }),
-                  _vm._v(" 2019 "),
+                  _vm._v(" 2019\n          "),
                   _c("span", { staticClass: "uk-text-bold" }, [
                     _vm._v(_vm._s(_vm.appName))
                   ]),
-                  _vm._v(" . All rights reserved.")
+                  _vm._v(" . All rights reserved.\n        ")
                 ])
               ]
             ),
@@ -22608,7 +22680,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "uk-width-expand@m uk-width-1-2@s" }, [
-      _c("ul", { staticClass: "uk-list  tm-footer-list" }, [
+      _c("ul", { staticClass: "uk-list tm-footer-list" }, [
         _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("หน้าแรก")])])
       ])
     ])
@@ -22628,8 +22700,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "uk-width-expand@m uk-width-1-2@s" }, [
-      _c("ul", { staticClass: "uk-list  tm-footer-list" }, [
-        _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("บทเรียน")])])
+      _c("ul", { staticClass: "uk-list tm-footer-list" }, [
+        _c("li", [
+          _c("a", { attrs: { href: "#articles" } }, [_vm._v("บทความ")])
+        ])
       ])
     ])
   },
@@ -22646,7 +22720,7 @@ var staticRenderFns = [
         attrs: { "uk-tooltip": "title: Visit Our Site; pos: top-center" }
       },
       [
-        _vm._v(" Powered By "),
+        _vm._v("\n      Powered By\n      "),
         _c(
           "a",
           {
@@ -22725,7 +22799,7 @@ var staticRenderFns = [
         },
         [
           _c("i", {
-            staticClass: "fab fa-linkedin ",
+            staticClass: "fab fa-linkedin",
             staticStyle: { color: "#6949a5  !important" }
           })
         ]
@@ -22789,124 +22863,129 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "div",
+    "nav",
     {
       staticClass:
-        "uk-navbar-transparent tm-mobile-header uk-animation-slide-top uk-position-z-index uk-navbar"
+        "uk-navbar-transparent tm-mobile-header uk-animation-slide-top uk-position-z-index",
+      attrs: { "uk-navbar": "" }
     },
     [
-      _c("div", { staticClass: "uk-position-relative" }, [
-        _c(
-          "nav",
-          {
-            staticClass:
-              "uk-navbar-transparent tm-mobile-header uk-animation-slide-top uk-position-z-index uk-navbar",
-            attrs: { "uk-navbar": "" }
-          },
-          [
-            _vm._m(0),
-            _vm._v(" "),
-            _vm._m(1),
-            _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c(
+        "router-link",
+        { staticClass: "uk-hidden@m uk-logo", attrs: { to: "/" } },
+        [_vm._v(_vm._s(_vm.appName))]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "uk-navbar-left uk-visible@m" },
+        [
+          _c("router-link", { staticClass: "uk-logo", attrs: { to: "/" } }, [
+            _c("i", { staticClass: "fas fa-graduation-cap" }),
+            _vm._v("\n      " + _vm._s(_vm.appName) + "\n    ")
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "uk-navbar-nav uk-margin-small-left" }, [
             _c(
-              "router-link",
-              { staticClass: "uk-hidden@m uk-logo", attrs: { to: "/" } },
-              [_vm._v(_vm._s(_vm.appName))]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "uk-navbar-left uk-visible@m" },
+              "li",
               [
-                _c(
-                  "router-link",
-                  { staticClass: "uk-logo", attrs: { to: "/" } },
-                  [
-                    _c("i", { staticClass: "fas fa-graduation-cap" }),
-                    _vm._v("\n          " + _vm._s(_vm.appName) + "\n        ")
-                  ]
-                ),
-                _vm._v(" "),
-                _vm._m(2)
+                _c("router-link", { attrs: { to: { name: "index" } } }, [
+                  _vm._v("คอร์สเรียน")
+                ])
               ],
               1
             ),
             _vm._v(" "),
             _c(
-              "div",
-              {
-                staticClass: "uk-modal-full uk-modal uk-animation-scale-down",
-                attrs: { id: "modal-full", "uk-modal": "" }
-              },
+              "li",
               [
-                _c(
-                  "div",
-                  {
-                    staticClass: "uk-modal-dialog uk-flex uk-flex-center",
-                    staticStyle: {
-                      "box-sizing": "border-box",
-                      "min-height": "calc(100vh)",
-                      height: "547px"
-                    },
-                    attrs: { "uk-height-viewport": "" }
-                  },
-                  [
-                    _c(
-                      "button",
-                      {
-                        staticClass: "uk-modal-close-full uk-close uk-icon",
-                        attrs: { type: "button", "uk-close": "" }
-                      },
-                      [
-                        _c(
-                          "svg",
-                          {
-                            attrs: {
-                              width: "14",
-                              height: "14",
-                              viewBox: "0 0 14 14",
-                              xmlns: "http://www.w3.org/2000/svg"
-                            }
-                          },
-                          [
-                            _c("line", {
-                              attrs: {
-                                fill: "none",
-                                stroke: "#000",
-                                "stroke-width": "1.1",
-                                x1: "1",
-                                y1: "1",
-                                x2: "13",
-                                y2: "13"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("line", {
-                              attrs: {
-                                fill: "none",
-                                stroke: "#000",
-                                "stroke-width": "1.1",
-                                x1: "13",
-                                y1: "1",
-                                x2: "1",
-                                y2: "13"
-                              }
-                            })
-                          ]
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _vm._m(3)
-                  ]
-                )
-              ]
+                _c("router-link", { attrs: { to: { name: "post.index" } } }, [
+                  _vm._v("บทความ")
+                ])
+              ],
+              1
             )
-          ],
-          1
-        )
-      ])
-    ]
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "uk-modal-full uk-modal uk-animation-scale-down",
+          attrs: { id: "modal-full", "uk-modal": "" }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "uk-modal-dialog uk-flex uk-flex-center",
+              staticStyle: {
+                "box-sizing": "border-box",
+                "min-height": "calc(100vh)",
+                height: "547px"
+              },
+              attrs: { "uk-height-viewport": "" }
+            },
+            [
+              _c(
+                "button",
+                {
+                  staticClass: "uk-modal-close-full uk-close uk-icon",
+                  attrs: { type: "button", "uk-close": "" }
+                },
+                [
+                  _c(
+                    "svg",
+                    {
+                      attrs: {
+                        width: "14",
+                        height: "14",
+                        viewBox: "0 0 14 14",
+                        xmlns: "http://www.w3.org/2000/svg"
+                      }
+                    },
+                    [
+                      _c("line", {
+                        attrs: {
+                          fill: "none",
+                          stroke: "#000",
+                          "stroke-width": "1.1",
+                          x1: "1",
+                          y1: "1",
+                          x2: "13",
+                          y2: "13"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("line", {
+                        attrs: {
+                          fill: "none",
+                          stroke: "#000",
+                          "stroke-width": "1.1",
+                          x1: "13",
+                          y1: "1",
+                          x2: "1",
+                          y2: "13"
+                        }
+                      })
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _vm._m(2)
+            ]
+          )
+        ]
+      )
+    ],
+    1
   )
 }
 var staticRenderFns = [
@@ -22938,18 +23017,6 @@ var staticRenderFns = [
       },
       [_c("i", { staticClass: "fas fa-user icon-large" })]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "uk-navbar-nav uk-margin-small-left" }, [
-      _c("li", [
-        _c("a", { attrs: { href: "#courses" } }, [_vm._v("คอร์สเรียน")])
-      ]),
-      _vm._v(" "),
-      _c("li", [_c("a", { attrs: { href: "#articles" } }, [_vm._v("บทความ")])])
-    ])
   },
   function() {
     var _vm = this
@@ -24098,50 +24165,54 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("article", { staticClass: "uk-article" }, [
-    _c(
-      "div",
-      {
-        staticClass:
-          "uk-container-small uk-margin-auto uk-margin-medium-top uk-padding-small"
-      },
-      [
-        _c("h2", { staticClass: "uk-heading-bullet" }, [
-          _vm._v(_vm._s(_vm.post.title))
-        ]),
-        _vm._v(" "),
-        _c("div", {}, [
-          _c("img", {
-            staticClass: "img-small",
-            attrs: { src: _vm.author.avatar_url }
-          }),
+  return _c("div", [
+    _c("div", { staticClass: "course-dhashboard topic2" }),
+    _vm._v(" "),
+    _c("article", { staticClass: "uk-article" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "uk-container-small uk-margin-auto uk-margin-medium-top uk-padding-small"
+        },
+        [
+          _c("h2", { staticClass: "uk-heading-bullet" }, [
+            _vm._v(_vm._s(_vm.post.title))
+          ]),
           _vm._v(" "),
-          _c("span", { staticClass: "uk-text-middle" }, [
-            _vm._v("by "),
-            _c("a", { attrs: { href: "#" } }, [
-              _vm._v(" " + _vm._s(_vm.author.name))
-            ]),
-            _vm._v(".")
+          _c("div", {}, [
+            _c("img", {
+              staticClass: "img-small",
+              attrs: { src: _vm.author.avatar_url }
+            }),
+            _vm._v(" "),
+            _c("span", { staticClass: "uk-text-middle" }, [
+              _vm._v("\n          by\n          "),
+              _c("a", { attrs: { href: "#" } }, [
+                _vm._v(_vm._s(_vm.author.name))
+              ]),
+              _vm._v(".\n        ")
+            ])
           ])
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "uk-container uk-margin-auto" }, [
-      _c("img", { attrs: { src: _vm.post.image_url, alt: "" } })
-    ]),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "uk-container-small uk-margin-auto uk-padding-large" },
-      [
-        _c("p", { staticClass: "uk-text-lead" }, [
-          _vm._v(_vm._s(_vm.post.excerpt))
-        ]),
-        _vm._v(" "),
-        _c("div", { domProps: { innerHTML: _vm._s(_vm.post.body) } })
-      ]
-    )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "uk-container uk-margin-auto" }, [
+        _c("img", { attrs: { src: _vm.post.image_url, alt: "" } })
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "uk-container-small uk-margin-auto uk-padding-large" },
+        [
+          _c("p", { staticClass: "uk-text-lead" }, [
+            _vm._v(_vm._s(_vm.post.excerpt))
+          ]),
+          _vm._v(" "),
+          _c("div", { domProps: { innerHTML: _vm._s(_vm.post.body) } })
+        ]
+      )
+    ])
   ])
 }
 var staticRenderFns = []
@@ -24167,7 +24238,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "hero-feature-bg uk-visible@s" }),
+    _c("div", { staticClass: "course-dhashboard topic2" }),
     _vm._v(" "),
     _c("div", { staticClass: "uk-container uk-visible@s" }, [
       _vm._m(0),
@@ -24176,7 +24247,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "uk-position-relative uk-visible-toggle  uk-container uk-padding-medium",
+            "uk-position-relative uk-visible-toggle uk-container uk-padding-medium",
           attrs: { "uk-slider": "" }
         },
         [
@@ -24206,7 +24277,7 @@ var render = function() {
                         "div",
                         {
                           staticClass:
-                            "uk-card-default uk-card-hover  uk-card-small feature-card uk-inline-clip"
+                            "uk-card-default uk-card-hover uk-card-small feature-card uk-inline-clip"
                         },
                         [
                           _c("img", {
@@ -24253,8 +24324,10 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _c("div", { staticClass: "uk-container" }, [
-      _vm._m(2),
+    _c("div", { staticClass: "uk-container uk-margin-top" }, [
+      _c("h3", { staticClass: "uk-margin-remove uk-text-light" }, [
+        _vm._v("ล่าสุด")
+      ]),
       _vm._v(" "),
       _c(
         "div",
@@ -24296,7 +24369,7 @@ var render = function() {
                         _c(
                           "h5",
                           { staticClass: "uk-margin uk-margin-remove-bottom" },
-                          [_vm._v(" " + _vm._s(post.title) + "  ")]
+                          [_vm._v(_vm._s(post.title))]
                         )
                       ])
                     ]
@@ -24322,17 +24395,15 @@ var staticRenderFns = [
         "div",
         {
           staticClass:
-            "uk-position-relative uk-margin-medium-top none-border uk-clearfix"
+            "uk-position-relative uk-margin-small-top none-border uk-clearfix"
         },
         [
           _c("div", { staticClass: "uk-float-left" }, [
-            _c("h1", { staticClass: "uk-text-white" }, [_vm._v("บทความ")]),
+            _c("h1", { staticClass: "uk-text-light" }, [_vm._v("บทความ")]),
             _vm._v(" "),
-            _c(
-              "h4",
-              { staticClass: "uk-text-white uk-margin-remove uk-text-light" },
-              [_vm._v(" บทความแนะนำ ")]
-            )
+            _c("h3", { staticClass: "uk-margin-remove uk-text-light" }, [
+              _vm._v("แนะนำ")
+            ])
           ])
         ]
       )
@@ -24348,27 +24419,6 @@ var staticRenderFns = [
       [
         _c("li", { attrs: { "uk-slider-item": "0" } }, [
           _c("a", { attrs: { href: "#" } })
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "section-heading uk-position-relative uk-margin-small-top none-border uk-clearfix"
-      },
-      [
-        _c("div", { staticClass: "section-heading none-border" }, [
-          _c("h3", { staticClass: "uk-margin-remove-bottom" }, [
-            _vm._v("บทความทั้งหมด")
-          ]),
-          _vm._v(" "),
-          _c("p", [_vm._v("บทความล่าสุด")])
         ])
       ]
     )
@@ -39485,7 +39535,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     name: 'post.index',
     component: _pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
-    path: '/article/:slug',
+    path: '/post/:slug',
     name: 'post.show',
     component: _components_post_Show__WEBPACK_IMPORTED_MODULE_4__["default"]
   }]
