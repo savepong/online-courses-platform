@@ -1,25 +1,42 @@
 <template>
-    <header class="tm-header uk-sticky uk-sticky-fixed" uk-sticky="" style="position: fixed; top: 0px; width: 1381px;">
-        <div class="uk-navbar-container uk-nav-dark  uk-navbar-sticky">
-            <div class="uk-position-relative">
-                <nav class="uk-navbar-transparent tm-mobile-header uk-animation-slide-top uk-position-z-index uk-navbar" uk-navbar="">
-                    <!-- logo -->
-                    <!-- mobile icon for side nav on nav-mobile-->                         
-                    <span class="uk-hidden@m tm-mobile-menu-icon" uk-toggle="target: #mobile-sidebar"><i class="fas fa-bars icon-large"></i></span> 
-                    <!-- mobile icon for user icon on nav-mobile -->                         
-                    <span class="uk-hidden@m tm-mobile-user-icon uk-align-right" uk-toggle="target: #tm-show-on-mobile; cls: tm-show-on-mobile-active"><i class="fas fa-user icon-large"></i></span> 
-                    <!-- mobile logo -->                         
+  <header
+    class="tm-header uk-sticky uk-sticky-fixed"
+    uk-sticky
+    style="position: fixed; top: 0px; width: 1381px;"
+  >
+    <div class="uk-navbar-container uk-nav-dark uk-navbar-sticky">
+      <div class="uk-position-relative">
+        <nav
+          class="uk-navbar-transparent tm-mobile-header uk-animation-slide-top uk-position-z-index uk-navbar"
+          uk-navbar
+        >
+          <!-- logo -->
+          <!-- mobile icon for side nav on nav-mobile-->
+          <span class="uk-hidden@m tm-mobile-menu-icon" uk-toggle="target: #mobile-sidebar">
+            <i class="fas fa-bars icon-large"></i>
+          </span>
+          <!-- mobile icon for user icon on nav-mobile -->
+          <span
+            class="uk-hidden@m tm-mobile-user-icon uk-align-right"
+            uk-toggle="target: #tm-show-on-mobile; cls: tm-show-on-mobile-active"
+          >
+            <i class="fas fa-user icon-large"></i>
+          </span>
+          <!-- mobile logo -->
 
-                    <router-link to="/" class="uk-hidden@m uk-logo">{{appName}}</router-link>
+          <router-link to="/" class="uk-hidden@m uk-logo">{{appName}}</router-link>
 
-                    <div class="uk-navbar-left uk-visible@m">
-                        <router-link to="/" class="uk-logo"><i class="fas fa-graduation-cap"> </i> {{appName}}</router-link>
+          <div class="uk-navbar-left uk-visible@m">
+            <router-link to="/" class="uk-logo">
+              <i class="fas fa-graduation-cap"></i>
+              {{appName}}
+            </router-link>
 
-                        <ul class="uk-navbar-nav uk-margin-small-left">
-                            <li >
-                                <a href="#">คอร์สเรียน</a>
-                                <!-- drop topic list -->
-                                <!-- <div uk-drop="pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small" class="uk-drop angle-top-left"> 
+            <ul class="uk-navbar-nav uk-margin-small-left">
+              <li>
+                <a href="#">คอร์สเรียน</a>
+                <!-- drop topic list -->
+                <!-- <div uk-drop="pos: top-left ;mode:click ; offset: 40;animation: uk-animation-slide-bottom-small" class="uk-drop angle-top-left"> 
                                     <div class="tm-drop-topic">
                                         <div class="uk-grid-collapse uk-grid-match uk-grid uk-grid-stack" uk-grid=""> 
                                             <div class="uk-width-1-2"> 
@@ -182,17 +199,17 @@
                                             </div>                                                 
                                         </div>                                             
                                     </div>                                         
-                                </div> -->
-                            </li>      
-                            <li>
-                                <router-link :to="{ name: 'post.index' }">บทความ</router-link>
-                            </li>                              
-                        </ul>
-                    </div>                         
-                    <!-- <user-courses-component></user-courses-component> -->
-                    
-                    <!-- Navigation for mobile -->
-                    <!-- <div id="mobile-sidebar" class="mobile-sidebar uk-offcanvas" uk-offcanvas="overlay:true">
+                </div>-->
+              </li>
+              <li>
+                <router-link :to="{ name: 'post.index' }">บทความ</router-link>
+              </li>
+            </ul>
+          </div>
+          <!-- <user-courses-component></user-courses-component> -->
+
+          <!-- Navigation for mobile -->
+          <!-- <div id="mobile-sidebar" class="mobile-sidebar uk-offcanvas" uk-offcanvas="overlay:true">
                         <div class="uk-offcanvas-bar uk-preserve-color uk-padding-remove"> 
                             <ul uk-accordion="" class="uk-accordion"> 
                                 <li class="uk-open"> 
@@ -282,37 +299,54 @@
                                                                     
                             </ul>                                 
                         </div>
-                    </div>                          -->
-                    <!-- search box -->                         
-                    <div id="modal-full" class="uk-modal-full uk-modal uk-animation-scale-down" uk-modal=""> 
-                        <div class="uk-modal-dialog uk-flex uk-flex-center" uk-height-viewport="" style="box-sizing: border-box; min-height: calc(100vh); height: 547px;"> 
-                            <button class="uk-modal-close-full uk-close uk-icon" type="button" uk-close=""><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg></button>                                 
-                            <form class="uk-search uk-margin-xlarge-top uk-search-large uk-animation-slide-bottom-medium"> 
-                                <i class="fas fa-search uk-position-absolute uk-margin-top icon-xxlarge"></i> 
-                                <input class="uk-search-input uk-margin-large-left" type="search" placeholder="Search..." autofocus=""> 
-                            </form>                                 
-                        </div>                             
-                    </div>                         
-                </nav>
+          </div>-->
+          <!-- search box -->
+          <div id="modal-full" class="uk-modal-full uk-modal uk-animation-scale-down" uk-modal>
+            <div
+              class="uk-modal-dialog uk-flex uk-flex-center"
+              uk-height-viewport
+              style="box-sizing: border-box; min-height: calc(100vh); height: 547px;"
+            >
+              <button class="uk-modal-close-full uk-close uk-icon" type="button" uk-close>
+                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                  <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                  <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                </svg>
+              </button>
+              <form
+                class="uk-search uk-margin-xlarge-top uk-search-large uk-animation-slide-bottom-medium"
+              >
+                <i class="fas fa-search uk-position-absolute uk-margin-top icon-xxlarge"></i>
+                <input
+                  class="uk-search-input uk-margin-large-left"
+                  type="search"
+                  placeholder="Search..."
+                  autofocus
+                >
+              </form>
             </div>
-        </div>
-    </header>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
 </template>
 
 <script>
 export default {
-    // props: ['appName'],
+  // props: ['appName'],
 
-    data () {
-        return {
-            appName: "OnlineCourses"
-        }
-    }
-}
+  data() {
+    return {
+      appName: process.env.MIX_APP_NAME
+    };
+  }
+};
 </script>
 
 <style>
-body, a {
-    font-family: Prompt !important
+body,
+a {
+  font-family: Prompt !important;
 }
 </style>

@@ -2688,6 +2688,39 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   // props: ['appName'],
   data: function data() {
@@ -2970,7 +3003,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody, a {\n    font-family: Prompt !important\n}\n", ""]);
+exports.push([module.i, "\nbody,\na {\n  font-family: Prompt !important;\n}\n", ""]);
 
 // exports
 
@@ -22644,7 +22677,7 @@ var render = function() {
     [
       _c(
         "div",
-        { staticClass: "uk-navbar-container uk-nav-dark  uk-navbar-sticky" },
+        { staticClass: "uk-navbar-container uk-nav-dark uk-navbar-sticky" },
         [
           _c("div", { staticClass: "uk-position-relative" }, [
             _c(
@@ -22674,7 +22707,11 @@ var render = function() {
                       { staticClass: "uk-logo", attrs: { to: "/" } },
                       [
                         _c("i", { staticClass: "fas fa-graduation-cap" }),
-                        _vm._v(" " + _vm._s(_vm.appName))
+                        _vm._v(
+                          "\n            " +
+                            _vm._s(_vm.appName) +
+                            "\n          "
+                        )
                       ]
                     ),
                     _vm._v(" "),
@@ -22750,6 +22787,7 @@ var render = function() {
                                     y2: "13"
                                   }
                                 }),
+                                _vm._v(" "),
                                 _c("line", {
                                   attrs: {
                                     fill: "none",
