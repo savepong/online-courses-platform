@@ -3111,7 +3111,7 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     };
   },
   created: function created() {
-    this.fetch("/api/course/42");
+    this.fetch("/api/course/0");
     this.getPosts();
     this.getCategories();
   },
@@ -24438,7 +24438,7 @@ var render = function() {
           _vm._v(" "),
           _c("p", {
             staticClass: "uk-light uk-text-bold",
-            domProps: { innerHTML: _vm._s(_vm.course.description) }
+            domProps: { innerHTML: _vm._s(_vm.course.excerpt) }
           }),
           _vm._v(" "),
           _vm._m(0)

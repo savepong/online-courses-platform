@@ -18,7 +18,7 @@
         </div>
         <div class="uk-width-1-2@m uk-padding">
           <h2 class="uk-light uk-text-uppercase uk-text-bold uk-text-white">{{course.title}}</h2>
-          <p class="uk-light uk-text-bold" v-html="course.description"></p>
+          <p class="uk-light uk-text-bold" v-html="course.excerpt"></p>
           <p class="uk-light uk-text-bold uk-text-small">
             <i class="fas fa-star icon-small icon-rate"></i>
             <i class="fas fa-star icon-small icon-rate"></i>
@@ -184,7 +184,7 @@ export default {
   },
 
   created() {
-    this.fetch(`/api/course/42`);
+    this.fetch(`/api/course/0`);
     this.getPosts();
     this.getCategories();
   },
