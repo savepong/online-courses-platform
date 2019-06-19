@@ -3226,7 +3226,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody,\na {\n  font-family: Prompt !important;\n}\n.uk-navbar {\n  background-color: transparent;\n  height: 0px;\n}\n", ""]);
+exports.push([module.i, "\nbody,\na {\n  font-family: Prompt !important;\n}\n.uk-navbar {\n  background-color: transparent;\n  height: 0px;\n}\n.tm-mobile-header a {\n  color: white !important;\n}\n.tm-mobile-menu-icon {\n  color: white !important;\n}\n.tm-mobile-user-icon {\n  color: white !important;\n}\n", ""]);
 
 // exports
 

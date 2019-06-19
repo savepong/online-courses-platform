@@ -354,4 +354,14 @@ a {
   background-color: transparent;
   height: 0px;
 }
+
+.tm-mobile-header a {
+  color: white !important;
+}
+.tm-mobile-menu-icon {
+  color: white !important;
+}
+.tm-mobile-user-icon {
+  color: white !important;
+}
 </style>
