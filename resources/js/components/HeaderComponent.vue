@@ -24,12 +24,14 @@
     </span>
     <!-- mobile logo -->
 
-    <router-link to="/" class="uk-hidden@m uk-logo">{{appName}}</router-link>
+    <router-link to="/" class="uk-hidden@m uk-logo">
+      <i>{{appName}}</i>
+    </router-link>
 
     <div class="uk-navbar-left uk-visible@m">
       <router-link to="/" class="uk-logo">
         <i class="fas fa-graduation-cap"></i>
-        {{appName}}
+        <i>{{appName}}</i>
       </router-link>
 
       <ul class="uk-navbar-nav uk-margin-small-left">

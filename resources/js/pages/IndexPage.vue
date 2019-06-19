@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="course-dhashboard topic2">
-      <div uk-grid class="uk-grid">
+      <div uk-grid class="uk-grid uk-padding-large">
         <div class="uk-width-1-2@m uk-padding-remove-left uk-visible@m uk-first-column">
           <div class="course-video-demo uk-position-relative">
             <div class="video-responsive">
